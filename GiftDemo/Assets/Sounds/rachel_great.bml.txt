@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Great
+            <sync id="T1" time="0.53" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_great" />
+        </description>
+    </speech>
+    <lips viseme="Kg" articulation="1.0" start="0" ready="0" relax="0.04" end="0.04" />
+    <lips viseme="R" articulation="1.0" start="0.04" ready="0.04" relax="0.1" end="0.1" />
+    <lips viseme="Eh" articulation="1.0" start="0.1" ready="0.1" relax="0.35" end="0.35" />
+    <lips viseme="D" articulation="1.0" start="0.35" ready="0.35" relax="0.53" end="0.53" />
+    <lips viseme="_" articulation="1.0" start="0.53" ready="0.53" relax="0.570813" end="0.570813" />
+    <curves>
+        <curve name="open" num_keys="5" owner="analysis">-0.382667 0 0 0 0.004613 0.4 0 0 0.080225 0.350135 0 0 0.290491 0.39997 0 0 0.969333 0 0 0</curve>
+        <curve name="W" num_keys="3" owner="analysis">-0.382667 0 0 0 0.002103 0.55 0 0 0.069333 0 0 0</curve>
+        <curve name="wide" num_keys="3" owner="analysis">0.017333 0 0 0 0.080225 0.249325 0 0 0.286 0 0 0</curve>
+        <curve name="tBack" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.038112 0.22879 0 0 0.012667 0 0 0</curve>
+        <curve name="tRoof" num_keys="5" owner="analysis">0.010667 0 0 0 0.053333 0.155323 3.640382 2.235132 0.136667 0.341584 2.235132 2.994203 0.289638 0.79961 0 0 0.546 0 0 0</curve>
+    </curves>
+</bml>

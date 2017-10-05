@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />You
+            <sync id="T1" time="0.16" />
+            <sync id="T2" time="0.16" />too
+            <sync id="T3" time="0.44" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_youtoo" />
+        </description>
+    </speech>
+    <lips viseme="Sh" articulation="1.0" start="0" ready="0" relax="0.09" end="0.09" />
+    <lips viseme="Ah" articulation="1.0" start="0.09" ready="0.09" relax="0.16" end="0.16" />
+    <lips viseme="D" articulation="1.0" start="0.16" ready="0.16" relax="0.34" end="0.34" />
+    <lips viseme="W" articulation="1.0" start="0.34" ready="0.34" relax="0.44" end="0.44" />
+    <lips viseme="_" articulation="1.0" start="0.44" ready="0.44" relax="0.55225" end="0.55225" />
+    <curves>
+        <curve name="open" num_keys="4" owner="analysis">-0.022667 0 0 0 0.073855 0.499533 0 0 0.353334 0.356789 -0.510749 -2.02721 0.529334 0 0 0</curve>
+        <curve name="W" num_keys="5" owner="analysis">-0.422667 0 0 0 -0.037447 0.5 0 0 0.066018 0.00257 0 0 0.308955 0.548848 0 0 0.529334 0 0 0</curve>
+        <curve name="ShCh" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.037447 0.3 0 0 0.062667 0 0 0</curve>
+        <curve name="wide" num_keys="3" owner="analysis">-0.022667 0 0 0 0.066479 0.597197 0 0 0.312667 0 0 0</curve>
+        <curve name="tBack" num_keys="3" owner="analysis">-0.022667 0 0 0 0.059284 0.284369 0 0 0.146 0 0 0</curve>
+        <curve name="tRoof" num_keys="5" owner="analysis">-0.422667 0 0 0 -0.037246 0.4 0 0 0.031269 0.209002 0 0 0.106719 0.479271 0 0 0.312667 0 0 0</curve>
+    </curves>
+</bml>

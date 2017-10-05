@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />I'm
+            <sync id="T1" time="0.13" />
+            <sync id="T2" time="0.13" />thirty
+            <sync id="T3" time="0.4" />
+            <sync id="T4" time="0.4" />one
+            <sync id="T5" time="0.64" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_age" />
+        </description>
+    </speech>
+    <lips viseme="Ah" articulation="1.0" start="0" ready="0" relax="0.035" end="0.035" />
+    <lips viseme="Ih" articulation="1.0" start="0.035" ready="0.035" relax="0.07" end="0.07" />
+    <lips viseme="BMP" articulation="1.0" start="0.07" ready="0.07" relax="0.13" end="0.13" />
+    <lips viseme="Th" articulation="1.0" start="0.13" ready="0.13" relax="0.23" end="0.23" />
+    <lips viseme="Er" articulation="1.0" start="0.23" ready="0.23" relax="0.31" end="0.31" />
+    <lips viseme="D" articulation="1.0" start="0.31" ready="0.31" relax="0.36" end="0.36" />
+    <lips viseme="Ih" articulation="1.0" start="0.36" ready="0.36" relax="0.4" end="0.4" />
+    <lips viseme="W" articulation="1.0" start="0.4" ready="0.4" relax="0.5" end="0.5" />
+    <lips viseme="Ah" articulation="1.0" start="0.5" ready="0.5" relax="0.58" end="0.58" />
+    <lips viseme="D" articulation="1.0" start="0.58" ready="0.58" relax="0.64" end="0.64" />
+    <lips viseme="_" articulation="1.0" start="0.64" ready="0.64" relax="0.772062" end="0.772062" />
+    <curves>
+        <curve name="open" num_keys="11" owner="analysis">-0.422667 0 0 0 -0.038112 0.305556 0 0 0.013048 0.015433 0 0 0.109008 0.449837 0 0 0.22 0.387376 -0.56275 -1.607371 0.279124 0.292342 0 0 0.336667 0.392546 1.741403 1.018816 0.443846 0.501742 0 0 0.464833 0.5 0 0 0.547764 0.549509 0 0 0.746 0 0 0</curve>
+        <curve name="W" num_keys="3" owner="analysis">0.260667 0 0 0 0.369099 0.43966 0 0 0.462667 0 0 0</curve>
+        <curve name="ShCh" num_keys="3" owner="analysis">0.094 0 0 0 0.202835 0.499176 0 0 0.346 0 0 0</curve>
+        <curve name="PBM" num_keys="3" owner="analysis">-0.222667 0 0 0 0.002523 0.897786 0 0 0.096 0 0 0</curve>
+        <curve name="wide" num_keys="8" owner="analysis">-0.422667 0 0 0 -0.038112 0.366667 0 0 0.012667 0 0 0 0.194 0 0 0 0.325687 0.568048 0 0 0.383625 0.183967 0 0 0.46642 0.6 0 0 0.546 0 0 0</curve>
+        <curve name="tBack" num_keys="6" owner="analysis">-0.422667 0 0 0 -0.038112 0.244444 0 0 0.012667 0 0 0 0.377334 0 0 0 0.468297 0.4 0 0 0.546 0 0 0</curve>
+        <curve name="tRoof" num_keys="7" owner="analysis">0.094 0 0 0 0.186667 0.475704 5.133499 1.157364 0.271927 0.574381 0 0 0.362667 0 0 0 0.477334 0 0 0 0.556892 0.799285 0 0 0.746 0 0 0</curve>
+        <curve name="tTeeth" num_keys="3" owner="analysis">0.010667 0 0 0 0.10096 0.897066 0 0 0.196 0 0 0</curve>
+        <curve name="Eye Pitch" num_keys="3" owner="analysis">-0.215333 0 0 0 0.155802 -5.389827 0 0 0.803333 0 0 0</curve>
+        <curve name="Head Pitch" num_keys="3" owner="analysis">-0.215333 0 0 0 0.155802 5.389827 0 0 0.803333 0 0 0</curve>
+        <curve name="au_7" num_keys="3" owner="analysis">-0.182 0 0 0 0.038147 0.397428 0 0 0.42 0 0 0</curve>
+    </curves>
+</bml>

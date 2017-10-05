@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Maybe
+            <sync id="T1" time="0.386937" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_maybe" />
+        </description>
+    </speech>
+    <lips viseme="Eh" articulation="1.0" start="0" ready="0" relax="0.386937" end="0.386937" />
+    <lips viseme="_" articulation="1.0" start="0.386937" ready="0.386937" relax="0.387" end="0.387" />
+    <curves>
+        <curve name="open" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.024803 0.5 0 0 0.812667 0 0 0</curve>
+        <curve name="wide" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.024803 0.6 0 0 0.812667 0 0 0</curve>
+        <curve name="tBack" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.030271 0.4 0 0 0.362667 0 0 0</curve>
+    </curves>
+</bml>

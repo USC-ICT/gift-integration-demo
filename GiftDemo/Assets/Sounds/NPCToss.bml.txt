@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text />
+        <description level="1" type="audio/x-wav">
+            <file ref="NPCToss" />
+        </description>
+    </speech>
+    <lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.89" end="0.89" />
+    <lips viseme="_" articulation="1.0" start="0.89" ready="0.89" relax="1" end="1" />
+    <curves />
+</bml>

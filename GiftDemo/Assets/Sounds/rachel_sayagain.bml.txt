@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Could
+            <sync id="T1" time="0.1" />
+            <sync id="T2" time="0.1" />you
+            <sync id="T3" time="0.2" />
+            <sync id="T4" time="0.2" />say
+            <sync id="T5" time="0.39" />
+            <sync id="T6" time="0.39" />that
+            <sync id="T7" time="0.57" />
+            <sync id="T8" time="0.57" />again
+            <sync id="T9" time="0.96" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_sayagain" />
+        </description>
+    </speech>
+    <lips viseme="Kg" articulation="1.0" start="0" ready="0" relax="0.03" end="0.03" />
+    <lips viseme="Ah" articulation="1.0" start="0.03" ready="0.03" relax="0.08" end="0.08" />
+    <lips viseme="D" articulation="1.0" start="0.08" ready="0.08" relax="0.1" end="0.1" />
+    <lips viseme="Sh" articulation="1.0" start="0.1" ready="0.1" relax="0.15" end="0.15" />
+    <lips viseme="W" articulation="1.0" start="0.15" ready="0.15" relax="0.2" end="0.2" />
+    <lips viseme="Z" articulation="1.0" start="0.2" ready="0.2" relax="0.3" end="0.3" />
+    <lips viseme="Eh" articulation="1.0" start="0.3" ready="0.3" relax="0.39" end="0.39" />
+    <lips viseme="Th" articulation="1.0" start="0.39" ready="0.39" relax="0.44" end="0.44" />
+    <lips viseme="Ah" articulation="1.0" start="0.44" ready="0.44" relax="0.56" end="0.56" />
+    <lips viseme="D" articulation="1.0" start="0.56" ready="0.56" relax="0.57" end="0.57" />
+    <lips viseme="Ah" articulation="1.0" start="0.57" ready="0.57" relax="0.63" end="0.63" />
+    <lips viseme="Kg" articulation="1.0" start="0.63" ready="0.63" relax="0.72" end="0.72" />
+    <lips viseme="Eh" articulation="1.0" start="0.72" ready="0.72" relax="0.86" end="0.86" />
+    <lips viseme="D" articulation="1.0" start="0.86" ready="0.86" relax="0.96" end="0.96" />
+    <lips viseme="_" articulation="1.0" start="0.96" ready="0.96" relax="1.125437" end="1.125437" />
+    <curves>
+        <curve name="open" num_keys="13" owner="analysis">-0.392667 0 0 0 -0.005546 0.5 0 0 0.065076 0.391657 0 0 0.088777 0.432134 0 0 0.195503 0.24885 0 0 0.326 0.55 0 0 0.490667 0.55 0 0 0.51954 0.519183 0 0 0.542667 0.55 0 0 0.607334 0.55 0 0 0.691885 0.500729 0 0 0.826754 0.549742 0 0 1.092666 0 0 0</curve>
+        <curve name="W" num_keys="3" owner="analysis">0.057333 0 0 0 0.122072 0.516139 0 0 0.209333 0 0 0</curve>
+        <curve name="ShCh" num_keys="3" owner="analysis">0.007333 0 0 0 0.067589 0.469112 0 0 0.126 0 0 0</curve>
+        <curve name="wide" num_keys="12" owner="analysis">-0.392667 0 0 0 -0.007723 0.6 0 0 0.076 0 0 0 0.107333 0 0 0 0.18701 0.386399 0 0 0.261128 0.250625 0 0 0.342667 0.8 0 0 0.440667 0.8 0 0 0.55 0.526404 -2.5024 -9.980427 0.602744 0 0 0 0.691886 0.591253 0 0 0.826 0 0 0</curve>
+        <curve name="tBack" num_keys="10" owner="analysis">-0.422667 0 0 0 -0.037133 0.324852 0 0 0.029333 0 0 0 0.360667 0 0 0 0.413796 0.206045 0 0 0.459374 0.150179 0 0 0.597848 0.739318 0 0 0.67 0.450057 -4.009028 -2.306427 0.736667 0.296296 -2.306427 -3.19744 0.829333 0 0 0</curve>
+        <curve name="tRoof" num_keys="12" owner="analysis">-0.239333 0 0 0 -0.046667 0.495186 2.570169 4.601364 0.019578 0.8 0 0 0.121192 0.106344 0 0 0.184853 0.331287 0 0 0.286667 0.181964 -1.466629 -2.387624 0.361567 0.003129 0 0 0.49574 0.428226 0 0 0.546 0 0 0 0.694 0 0 0 0.834819 0.798511 0 0 1.096 0 0 0</curve>
+        <curve name="tTeeth" num_keys="3" owner="analysis">0.277333 0 0 0 0.359982 0.885918 0 0 0.446 0 0 0</curve>
+        <curve name="Eye Yaw" num_keys="6" owner="analysis">-0.082 0 0 0 0.155454 1.598526 0 0 0.597632 0.71998 0 0 0.92 1.060197 0 0 1.118 1.060197 0 0 1.619999 0 0 0</curve>
+        <curve name="Head Yaw" num_keys="6" owner="analysis">-0.082 0 0 0 0.155454 -1.598526 0 0 0.597632 -0.71998 0 0 0.92 -1.060197 0 0 1.118 -1.060197 0 0 1.619999 0 0 0</curve>
+    </curves>
+</bml>

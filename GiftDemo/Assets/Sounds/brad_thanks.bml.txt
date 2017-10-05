@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Thanks
+            <sync id="T1" time="0.55" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_thanks" />
+        </description>
+    </speech>
+    <lips viseme="Th" articulation="1.0" start="0" ready="0" relax="0.04" end="0.04" />
+    <lips viseme="Ah" articulation="1.0" start="0.04" ready="0.04" relax="0.26" end="0.26" />
+    <lips viseme="D" articulation="1.0" start="0.26" ready="0.26" relax="0.38" end="0.38" />
+    <lips viseme="Kg" articulation="1.0" start="0.38" ready="0.38" relax="0.41" end="0.41" />
+    <lips viseme="Z" articulation="1.0" start="0.41" ready="0.41" relax="0.55" end="0.55" />
+    <lips viseme="_" articulation="1.0" start="0.55" ready="0.55" relax="0.632625" end="0.632625" />
+    <curves>
+        <curve name="open" num_keys="4" owner="analysis">-0.422667 0 0 0 -0.028334 0.5 0 0 0.32 0.170293 -0.946526 -0.234563 1.046 0 0 0</curve>
+        <curve name="wide" num_keys="4" owner="analysis">-0.422667 0 0 0 -0.02395 0.6 0 0 0.553334 0.417501 -0.316134 -0.847432 1.046 0 0 0</curve>
+        <curve name="tBack" num_keys="6" owner="analysis">-0.022667 0 0 0 0.003333 0.14129 5.434227 0.535528 0.022726 0.151675 0 0 0.221454 0.000917 0 0 0.345105 0.50226 0 0 0.379334 0 0 0</curve>
+        <curve name="tRoof" num_keys="5" owner="analysis">-0.039333 0 0 0 0.226152 0.796777 0 0 0.340899 0.339879 0 0 0.38504 0.395256 0 0 0.596 0 0 0</curve>
+        <curve name="tTeeth" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.035543 0.9 0 0 0.146 0 0 0</curve>
+    </curves>
+</bml>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0.05" />I'm
+            <sync id="T1" time="0.21" />
+            <sync id="T2" time="0.21" />always
+            <sync id="T3" time="0.6" />
+            <sync id="T4" time="0.6" />certain
+            <sync id="T5" time="0.98" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_alwayscertain" />
+        </description>
+    </speech>
+    <lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.05" end="0.05" />
+    <lips viseme="Ah" articulation="1.0" start="0.05" ready="0.05" relax="0.095" end="0.095" />
+    <lips viseme="Ih" articulation="1.0" start="0.095" ready="0.095" relax="0.14" end="0.14" />
+    <lips viseme="BMP" articulation="1.0" start="0.14" ready="0.14" relax="0.21" end="0.21" />
+    <lips viseme="Aa" articulation="1.0" start="0.21" ready="0.21" relax="0.29" end="0.29" />
+    <lips viseme="L" articulation="1.0" start="0.29" ready="0.29" relax="0.33" end="0.33" />
+    <lips viseme="W" articulation="1.0" start="0.33" ready="0.33" relax="0.42" end="0.42" />
+    <lips viseme="Ih" articulation="1.0" start="0.42" ready="0.42" relax="0.5" end="0.5" />
+    <lips viseme="Z" articulation="1.0" start="0.5" ready="0.5" relax="0.6" end="0.6" />
+    <lips viseme="Z" articulation="1.0" start="0.6" ready="0.6" relax="0.67" end="0.67" />
+    <lips viseme="Er" articulation="1.0" start="0.67" ready="0.67" relax="0.81" end="0.81" />
+    <lips viseme="D" articulation="1.0" start="0.81" ready="0.81" relax="0.82" end="0.82" />
+    <lips viseme="D" articulation="1.0" start="0.82" ready="0.82" relax="0.98" end="0.98" />
+    <lips viseme="_" articulation="1.0" start="0.98" ready="0.98" relax="1.068625" end="1.068625" />
+    <curves>
+        <curve name="open" num_keys="9" owner="analysis">-0.372667 0 0 0 0.012103 0.416667 0 0 0.082622 0.007008 0 0 0.186846 0.548663 0 0 0.253333 0.450411 -1.477734 -1.39142 0.469236 0.15 0 0 0.646 0.4 0 0 0.794 0.4 0 0 1.495999 0 0 0</curve>
+        <curve name="W" num_keys="3" owner="analysis">0.177333 0 0 0 0.29831 0.547792 0 0 0.396 0 0 0</curve>
+        <curve name="ShCh" num_keys="3" owner="analysis">0.477334 0 0 0 0.638949 0.499431 0 0 0.796 0 0 0</curve>
+        <curve name="PBM" num_keys="3" owner="analysis">-0.089333 0 0 0 0.077485 0.891194 0 0 0.179333 0 0 0</curve>
+        <curve name="wide" num_keys="8" owner="analysis">-0.372667 0 0 0 0.012103 0.5 0 0 0.079333 0 0 0 0.294 0 0 0 0.392286 0.79679 0 0 0.453334 0.533636 -4.31065 -2.069283 0.52 0.395684 -2.069283 -3.140352 0.646 0 0 0</curve>
+        <curve name="tBack" num_keys="3" owner="analysis">-0.372667 0 0 0 0.012103 0.333333 0 0 0.079333 0 0 0</curve>
+        <curve name="tRoof" num_keys="11" owner="analysis">0.177333 0 0 0 0.254608 0.272834 0 0 0.307415 0.000803 0 0 0.37 0.174761 2.779524 1.707942 0.502214 0.400573 0 0 0.553714 0.394271 0 0 0.67 0.548241 1.324065 3.312617 0.746 0.8 0 0 0.827333 0.8 0 0 0.886667 0.322714 -8.044158 -2.025403 1.046 0 0 0</curve>
+        <curve name="au_45" num_keys="3" owner="analysis">1.003615 0 0 0 1.109215 0.851604 0 0 1.205615 0 0 0</curve>
+        <curve name="Eye Pitch" num_keys="3" owner="analysis">-0.279718 0 0 0 0.28743 -5.229252 0 0 1.338948 0 0 0</curve>
+        <curve name="Eye Yaw" num_keys="4" owner="analysis">0.103616 0 0 0 0.565742 0.069171 0 0 0.922282 0 0 0 1.572281 0 0 0</curve>
+        <curve name="au_1" num_keys="3" owner="analysis">-0.229718 0 0 0 0.099459 0.45697 0 0 0.655616 0 0 0</curve>
+        <curve name="Head Pitch" num_keys="3" owner="analysis">-0.279718 0 0 0 0.28743 5.229252 0 0 1.338948 0 0 0</curve>
+        <curve name="Head Roll" num_keys="4" owner="analysis">-0.129718 0 0 0 0.216093 -1.598987 0 0 0.972282 0 0 0 1.572281 0 0 0</curve>
+        <curve name="Head Yaw" num_keys="4" owner="analysis">0.103616 0 0 0 0.565742 -0.069171 0 0 0.922282 0 0 0 1.572281 0 0 0</curve>
+    </curves>
+</bml>

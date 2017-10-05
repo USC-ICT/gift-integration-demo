@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0.96" />Wow
+            <sync id="T1" time="1.21" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_wow" />
+        </description>
+    </speech>
+    <lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.96" end="0.96" />
+    <lips viseme="W" articulation="1.0" start="0.96" ready="0.96" relax="0.98" end="0.98" />
+    <lips viseme="Ah" articulation="1.0" start="0.98" ready="0.98" relax="1.095" end="1.095" />
+    <lips viseme="W" articulation="1.0" start="1.095" ready="1.095" relax="1.21" end="1.21" />
+    <lips viseme="_" articulation="1.0" start="1.21" ready="1.21" relax="1.472" end="1.472" />
+    <curves>
+        <curve name="open" num_keys="6" owner="analysis">0.644 0 0 0 0.82 0.165411 0.939834 2.207279 0.972659 0.50237 0 0 1.053333 0.404409 -1.214272 -0.76875 1.186666 0.301909 -0.76875 -1.164177 1.445999 0 0 0</curve>
+        <curve name="W" num_keys="6" owner="analysis">0.527334 0 0 0 0.803333 0.442715 1.604042 3.103654 0.934561 0.85 0 0 1.014386 0.516516 0 0 1.066709 0.549712 0 0 1.445999 0 0 0</curve>
+        <curve name="wide" num_keys="3" owner="analysis">0.644 0 0 0 0.945648 0.257014 0 0 1.062666 0 0 0</curve>
+        <curve name="tBack" num_keys="3" owner="analysis">0.644 0 0 0 0.945648 0.171343 0 0 1.062666 0 0 0</curve>
+        <curve name="Eye Pitch" num_keys="4" owner="analysis">0.524 0 0 0 0.985215 -3.999815 0 0 1.840682 0 0 0 1.975999 0 0 0</curve>
+        <curve name="Eye Yaw" num_keys="3" owner="analysis">0.974 0 0 0 1.563871 -0.536123 0 0 1.975999 0 0 0</curve>
+        <curve name="Head Pitch" num_keys="4" owner="analysis">0.524 0 0 0 0.985215 3.999815 0 0 1.840682 0 0 0 1.975999 0 0 0</curve>
+        <curve name="Head Roll" num_keys="3" owner="analysis">0.974 0 0 0 1.563872 0.28544 0 0 1.975999 0 0 0</curve>
+        <curve name="Head Yaw" num_keys="3" owner="analysis">0.974 0 0 0 1.563871 0.536123 0 0 1.975999 0 0 0</curve>
+    </curves>
+</bml>

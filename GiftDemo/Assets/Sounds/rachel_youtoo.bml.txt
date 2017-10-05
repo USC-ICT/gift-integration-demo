@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />You
+            <sync id="T1" time="0.15" />
+            <sync id="T2" time="0.15" />too
+            <sync id="T3" time="0.38" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_youtoo" />
+        </description>
+    </speech>
+    <lips viseme="Sh" articulation="1.0" start="0" ready="0" relax="0.06" end="0.06" />
+    <lips viseme="W" articulation="1.0" start="0.06" ready="0.06" relax="0.15" end="0.15" />
+    <lips viseme="D" articulation="1.0" start="0.15" ready="0.15" relax="0.27" end="0.27" />
+    <lips viseme="W" articulation="1.0" start="0.27" ready="0.27" relax="0.38" end="0.38" />
+    <lips viseme="_" articulation="1.0" start="0.38" ready="0.38" relax="0.519313" end="0.519313" />
+    <curves>
+        <curve name="open" num_keys="3" owner="analysis">-0.362667 0 0 0 0.03113 0.4 0 0 0.489334 0 0 0</curve>
+        <curve name="W" num_keys="3" owner="analysis">-0.362667 0 0 0 0.03113 0.55 0 0 0.489334 0 0 0</curve>
+        <curve name="tRoof" num_keys="5" owner="analysis">-0.422667 0 0 0 -0.037897 0.4 0 0 0.029127 0.020577 0 0 0.094154 0.594651 0 0 0.246 0 0 0</curve>
+    </curves>
+</bml>

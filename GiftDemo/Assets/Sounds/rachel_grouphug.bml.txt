@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Group
+            <sync id="T1" time="0.31" />
+            <sync id="T2" time="0.31" />hug
+            <sync id="T3" time="0.63" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_grouphug" />
+        </description>
+    </speech>
+    <lips viseme="Kg" articulation="1.0" start="0" ready="0" relax="0.07" end="0.07" />
+    <lips viseme="R" articulation="1.0" start="0.07" ready="0.07" relax="0.09" end="0.09" />
+    <lips viseme="W" articulation="1.0" start="0.09" ready="0.09" relax="0.18" end="0.18" />
+    <lips viseme="BMP" articulation="1.0" start="0.18" ready="0.18" relax="0.31" end="0.31" />
+    <lips viseme="H" articulation="1.0" start="0.31" ready="0.31" relax="0.33" end="0.33" />
+    <lips viseme="Ah" articulation="1.0" start="0.33" ready="0.33" relax="0.52" end="0.52" />
+    <lips viseme="Kg" articulation="1.0" start="0.52" ready="0.52" relax="0.63" end="0.63" />
+    <lips viseme="_" articulation="1.0" start="0.63" ready="0.63" relax="0.679937" end="0.679937" />
+    <curves>
+        <curve name="open" num_keys="8" owner="analysis">-0.352667 0 0 0 -0.16 0.0578 0.3 1.371571 0.039183 0.330994 0 0 0.126552 0.000508 0 0 0.302879 0.499098 0 0 0.473334 0.255433 -1.429499 -0.315902 0.69 0.186988 -0.315902 -0.456811 1.099333 0 0 0</curve>
+        <curve name="W" num_keys="4" owner="analysis">-0.352667 0 0 0 -0.16 0.173454 0.900279 2.425126 0.033648 0.643073 0 0 0.116 0 0 0</curve>
+        <curve name="PBM" num_keys="3" owner="analysis">-0.019333 0 0 0 0.122348 0.899085 0 0 0.299333 0 0 0</curve>
+        <curve name="wide" num_keys="3" owner="analysis">0.114 0 0 0 0.30038 0.597836 0 0 0.482667 0 0 0</curve>
+        <curve name="tBack" num_keys="8" owner="analysis">-0.422667 0 0 0 -0.03756 0.534522 0 0 0.046 0 0 0 0.127333 0 0 0 0.236667 0.327872 2.998832 1.580529 0.353334 0.512267 1.580529 2.185716 0.484839 0.799701 0 0 0.646 0 0 0</curve>
+    </curves>
+</bml>

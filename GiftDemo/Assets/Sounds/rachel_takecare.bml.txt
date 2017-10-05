@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Take
+            <sync id="T1" time="0.18" />
+            <sync id="T2" time="0.18" />care
+            <sync id="T3" time="0.48" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_takecare" />
+        </description>
+    </speech>
+    <lips viseme="D" articulation="1.0" start="0" ready="0" relax="0.09" end="0.09" />
+    <lips viseme="Eh" articulation="1.0" start="0.09" ready="0.09" relax="0.17" end="0.17" />
+    <lips viseme="Kg" articulation="1.0" start="0.17" ready="0.17" relax="0.18" end="0.18" />
+    <lips viseme="Kg" articulation="1.0" start="0.18" ready="0.18" relax="0.26" end="0.26" />
+    <lips viseme="Ah" articulation="1.0" start="0.26" ready="0.26" relax="0.44" end="0.44" />
+    <lips viseme="R" articulation="1.0" start="0.44" ready="0.44" relax="0.48" end="0.48" />
+    <lips viseme="_" articulation="1.0" start="0.48" ready="0.48" relax="0.523438" end="0.523438" />
+    <curves>
+        <curve name="open" num_keys="7" owner="analysis">-0.332667 0 0 0 -0.106667 0.218345 0.966128 0.733473 0.093333 0.36504 0.733473 0.974408 0.231663 0.499829 0 0 0.36 0.418861 -0.630901 -0.515093 0.576667 0.307258 -0.515093 -0.855078 0.936 0 0 0</curve>
+        <curve name="ShCh" num_keys="3" owner="analysis">0.234 0 0 0 0.416563 0.5 0 0 0.936 0 0 0</curve>
+        <curve name="wide" num_keys="4" owner="analysis">-0.332667 0 0 0 0.076667 0.259433 0.633793 2.245077 0.228184 0.599602 0 0 0.402667 0 0 0</curve>
+        <curve name="tBack" num_keys="5" owner="analysis">0.064 0 0 0 0.143553 0.8 0 0 0.223334 0.406259 -4.935322 -1.649447 0.29 0.296296 -1.649447 -2.35155 0.416 0 0 0</curve>
+        <curve name="tRoof" num_keys="4" owner="analysis">-0.452667 0 0 0 -0.066434 0.8 0 0 0.023334 0.333821 -5.193157 -3.053238 0.132667 0 0 0</curve>
+    </curves>
+</bml>

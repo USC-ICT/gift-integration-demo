@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />No
+            <sync id="T1" time="0.13" />
+            <sync id="T2" time="0.13" />worries
+            <sync id="T3" time="0.54" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_noworries" />
+        </description>
+    </speech>
+    <lips viseme="D" articulation="1.0" start="0" ready="0" relax="0.05" end="0.05" />
+    <lips viseme="Ow" articulation="1.0" start="0.05" ready="0.05" relax="0.13" end="0.13" />
+    <lips viseme="W" articulation="1.0" start="0.13" ready="0.13" relax="0.22" end="0.22" />
+    <lips viseme="Er" articulation="1.0" start="0.22" ready="0.22" relax="0.31" end="0.31" />
+    <lips viseme="Ih" articulation="1.0" start="0.31" ready="0.31" relax="0.48" end="0.48" />
+    <lips viseme="Z" articulation="1.0" start="0.48" ready="0.48" relax="0.54" end="0.54" />
+    <lips viseme="_" articulation="1.0" start="0.54" ready="0.54" relax="0.650688" end="0.650688" />
+    <curves>
+        <curve name="open" num_keys="8" owner="analysis">-0.372667 0 0 0 0.012387 0.4 0 0 0.101074 0.001606 0 0 0.192108 0.398395 0 0 0.27 0.206859 -2.458982 -0.326225 0.441612 0.150874 0 0 0.504999 0.309876 0 0 0.629333 0 0 0</curve>
+        <curve name="W" num_keys="4" owner="analysis">-0.372667 0 0 0 0.02 0.55 1.400679 3.824199 0.097556 0.846588 0 0 0.196 0 0 0</curve>
+        <curve name="ShCh" num_keys="3" owner="analysis">0.094 0 0 0 0.189805 0.497993 0 0 0.279334 0 0 0</curve>
+        <curve name="wide" num_keys="4" owner="analysis">0.194 0 0 0 0.289164 0.798652 0 0 0.47 0.465789 -1.84069 -4.26027 0.579334 0 0 0</curve>
+        <curve name="tRoof" num_keys="8" owner="analysis">-0.422667 0 0 0 -0.038014 0.613333 0 0 0.012667 0 0 0 0.094 0 0 0 0.191576 0.497993 0 0 0.286675 0.200899 0 0 0.447855 0.399548 0 0 0.629334 0 0 0</curve>
+    </curves>
+</bml>

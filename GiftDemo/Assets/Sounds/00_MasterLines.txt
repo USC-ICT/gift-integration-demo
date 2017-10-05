@@ -1,0 +1,293 @@
+NPCToss	not used
+NPCToss2	not used
+rachel_hirachel	Hi, I'm Rachel, a virtual human
+rachel_name	My name's Rachel Taylor.
+rachel_fullname	My full name is Rachel Catherine Taylor
+rachel_imrachel	I'm Rachel.
+rachel_twentynine	Twenty nine.
+rachel_oldenough	Old enough to not have to tell.
+rachel_explainslot	Well that explains a lot!
+rachel_bradstupid	I'm here to keep Brad from doing anything stupid.
+rachel_ourjob	Our job.
+rachel_racecar	Racecar driver.
+rachel_tellyouabout	We're here to tell you about the eye see tee Virtual Human Toolkit.
+rachel_igotthis	I got this Brad.  When you speak to us, your words are sent to the NPC Editor, a statistical text classifier, which then selects our best response.  The non-verbal behavior generator then chooses our gestures and gazes which are synchronized with our responses by SmartBody.
+rachel_peoplecreate	The toolkit allows people like you to create virtual humans, like us!
+rachel_soformal	Brad you're so formal, the modules and tools in the toolkit help you make me!
+rachel_downloaded	Now that you've downloaded and installed the Toolkit, you can create your own virtual humans.
+rachel_generalqs	We can answer your general questions about the toolkit.  For more information go to vee ach tool kit dot eye see tee dot you s see dot e dee you.
+rachel_domore	BUT we hope to be given the ability to do more!  Like actually see and react to you.
+rachel_charlikeus	A virtual human is a character like us.  We can perceive real humans and respond both verbally and non-verbally.
+rachel_mtl	The toolkit is made up of many modules, tools and libraries.  The main modules are the NPCEditor, which is like our brain; the Non-verbal Behavior Generator, which as I'm sure you've already guessed, generates our non-verbal behavior; SmartBody, a procedural animation system; and Watson, a vision system.
+rachel_visitonline	For more detailed information, please visit us online.
+rachel_createown	This technology not only drives us, but also allows you to create your own virtual humans.
+rachel_checkouturl	Check out v h tool kit dot eye c t dot u s c dot e d u for more information about the toolkit.
+rachel_website	The tool kit website is v h tool kit dot eye c t dot u s c dot e d u.
+rachel_findonline	You can find us online at v h tool kit dot eye c t dot u s c dot e d u.
+rachel_detailedinfo	Please go to v h tool kit dot eye c t dot u s c dot e d u for more detailed information.
+rachel_developedat	We are being developed at the Institute for Creative Technologies with the same toolkit you're using.
+rachel_fromICT	We're from USC's Institute for Creative Technologies.
+rachel_groundbreaking	ICT stands for Institute for Creative Technologies. We perform groundbreaking research in areas like virtual humans, mixed reality and training.
+rachel_graphicslab	And don't forget about the Graphics Lab!  They've worked on a bunch of movies like Spider-Man and Avatar.
+rachel_usc	We're part of USC, the University of Southern California.
+rachel_collaborators	Most of the virtual human research at eye C T has been funded by the U S Department of Defense, although eye C T has many collaborators.
+rachel_rdecom	R DE COM stands for Research, Development and Engineering Command. Is is part of the U S Department of Defense and the main sponsor of eye C T virtual human research.
+rachel_connortwins	Don't forget Harmony, Connor, the Twins, Ada and Grace.
+rachel_fewtopics	Until you add more lines to the NPC Editor, we are limited to only a few topics.
+rachels_scooter	Please, please please give him more lines.  If I have to listen to his story about how his parents bought him a scooter instead of a bike one more time I think I'll scream.
+rachel_intelligenthuman	Can you speak like an intelligent human?
+rachel_watson	Watson is a visual recognition system that allows us to recognize head and eye movements, like gazes and nodding.
+rachel_sapi	SAPI is a speech recognition and text-to-speech interface by Microsoft.  We use it to talk to you.
+rachel_ownvoice	My voice is part of Microsoft SAPI. You can install your own voice for me to use.
+rachel_changeengine	But you can change our voices or even the engine.
+rachel_googleasr	You can also try out the Google ASR, which is included.
+rachel_brainworks	I'm not exactly sure what mathematical models underlie the NPCEditor.  But I'm pretty sure that you don't know how your brain works either.
+rachel_justsayin	I'm just sayin.
+rachel_bestline	It takes what you say, analyzes it statistically, then selects the best line for me to say in response.
+rachel_beautifulvoice	The NPC Editor picks a line for us to say, then our text to speech engine, or pre-recorded voices, turn that line into the beautiful voice you hear now.
+rachel_sbintegration	I am visualized here using the Unity or Ogre rendering engines, but SmartBody has been integrated with Gamebryo, Unreal Tournament 2004, and Panda 3 d as well.
+rachel_ogre	Ogre is an open source rendering engine.
+rachel_ogreus	Ogre is an open source rendering engine you can use to display us.
+rachel_watsondemo	You need to launch the separate Watson demo.
+rachel_webcam	With a web cam, Watson can recognize your head movements, like eye gaze, head gaze, and head gestures like nodding.
+rachel_sbmoves	SmartBody is a procedural animation system. It enables us to pull off these beautiful moves.
+rachel_differentgestures	And thanks to NVBG, I can say the same thing twice, but have different gestures each time.
+rachel_idleanims	It also controls our idle animations and gestures.  
+rachel_keyboard	Hit, J, in order to use mouse look. Use A, W, S, and, D, to move the camera
+rachel_fantastic	Fantastic!  Thanks.
+rachel_greatyou	Great!  How are you?
+rachel_metoo	Me, too.  You?
+rachel_nothingmuch	Nothing much. What's up with you?
+rachel_wholelot	Not a whole lot.
+rachel_great	Great!
+rachel_fantasticnews	That's fantastic news!
+rachel_imsorry	Oh, I'm sorry.
+rachel_toobad	That's too bad.
+rachel_ouchfp	Ouch!  Excuse me fashion police.
+rachel_pageant	Our looks are pretty basic, we're here as examples of what you can do with natural language and non-verbal behavior.  This isn't a beauty pageant.
+rachel_nicetosay	Didn't your mother ever tell you, If you don't have anything nice to say, don't say anything?
+rachel_ironic	Ironic, right?
+rachel_evasive	Or he's being evasive on purpose, though, that's less likely.
+rachel_sbpop	Our animations are procedurally and dynamically scheduled to match our words which sometimes makes our gestures pop.  Luckily for us, eye C T is working on this.
+rachel_retargeted	Look at me, I use retargeted versions of Brad's animations that are fit to my skeleton.
+rachel_rumor	Rumor has it that my animations weren't created for my body, but I don't like to think about that.
+rachel_fashionpolice	Who are you? The fashion police?
+rachel_virtualpet	It has it's ups and downs, but it sure beats being a virtual pet.
+rachel_notreal	You may have noticed that we're not real.  We don't eat or sleep!
+rachel_nowalks	We're easier to care for then a pet, we never need to eat or be taken for walks.
+rachel_goodone	Good one Brad!
+rachel_werevirtual	Uh, seriously?  We're virtual.
+rachel_commercial	Currently, there is no commercial license.  We can't be bought!
+rachel_trojans	Lets just say we're Trojans.
+rachel_wearesc	We are duh duh S C.
+rachel_bornandraised	Born and raised a Trojan.
+rachel_youtoo	You too!
+rachel_pleasure	The pleasure is all mine!
+rachel_nicetoseeyou	Nice to see you, too!
+rachel_weather	How's the weather?  You're talking to a virtual human and all you can think to ask is about the weather?
+rachel_surfsup	Surf's up!
+rachel_himstarted	Don't get him started.
+rachel_dance	I've never been able to dance.  I keep hoping my animators will jazz me up a bit and give me some moves!
+rachel_height	Five nine and a half.
+rachel_sayfunny	You need to say something funny if you want us to laugh!
+rachel_fastest	I hear he's the fastest coder this side of the planet.
+rachel_isaid	I said, 
+rachel_sorry	Sorry about that.
+rachel_allowfinish	Allow me to finish, 
+rachel_asiwas	As I was saying, 
+rachel_moreinfourl	There is more information about the tool kit at v h tool kit dot eye c t dot u s c dot e d u.
+rachel_goodnight	Good night.
+rachel_eveningalready	Is it evening already?
+rachel_goodmorning	Good morning!
+rachel_noproblem	No problem.
+rachel_youshutup	You shut up!
+rachel_uhno	Uh, no.
+rachel_nodont	No, I don't.
+rachel_howelse	How else can we help?
+rachel_otherquestions	Do you have any other questions?
+rachel_anythingelse	Can we help you with anything else?
+rachel_verywelcome	You're very welcome!
+rachel_welcome	You're welcome!
+rachel_anytime	Any time.
+rachel_thanks	Thanks!
+rachel_bye	Bye.
+rachel_tata	Ta ta for now!
+rachel_takecare	Take care.
+rachel_seeya	See ya later.
+rachel_goodday	Have a good day.
+rachel_alwayssure	We're always sure.
+rachel_havemydoubts	Brad is always certain, while I have my doubts
+rachel_hey	Hey
+rachel_hello	Hello
+rachel_greatthanks	Great, thanks.
+rachel_nobodyknows	Nobody knows.
+rachel_grouphug	Group hug!
+rachel_kumbaya	Shall we hold hands and sing Kumbaya?
+rachel_awesome	Awesome!
+rachel_surewedo	Sure we do.
+rachel_repeat	Can you please repeat that?
+brad_hibrad	Hi, I'm Brad, a virtual human.
+brad_name	My name's Brad Smith.
+brad_fullname	My full name is Brad Matthew Smith
+brad_willsmith	You wanna tell that to Will Smith?  
+brad_imbrad	I'm Brad.
+brad_age	I'm thirty one.
+brad_thirtyone	Thirty one.
+brad_notthirtyone	Well, maybe technically I'm not actually thirty-one.  But, I kinda don't wanna talk about it.
+brad_older	I look older than I really am.
+brad_showoff	We're here to help show off what the virtual human toolkit can do.
+brad_myhouse	What am I doing here?  This is my house?  What are you doing here?
+brad_dowith	My job is to show you what you can do with the toolkit.
+brad_astronaut	Astronaut.
+brad_ourselves	You can ask us questions about ourselves or the virtual human toolkit.
+brad_uscict	It's being developed at USC's Institute for Creative Technologies.
+brad_tml	The Virtual Human Toolkit is a collection of modules and tools designed to aid in the creation of virtual humans.
+brad_goonlineurl	Go online to v h tool kit dot eye c t dot u s c dot e d u for more information.
+brad_highlevel	Our main purpose is to answer all your high level questions about the toolkit.  But 
+brad_greathelp	The toolkit's a great help in creating virtual humans.
+brad_researchers	Researchers can use the tool kit to create virtual humans or they can use part of it in their own systems.
+brad_checkouturl	Check out v h tool kit dot eye c t dot u s c dot e d u for more information about the toolkit.
+brad_websiteurl	The tool kit website is v h tool kit dot eye c t dot u s c dot e d u.
+brad_onlineurl	You can find us online at v h tool kit dot eye c t dot u s c dot e d u.
+brad_visitonline	For more detailed information, please visit us online.
+brad_fromuscict	We're from USC's Institute for Creative Technologies.
+brad_ictoverview	At the eye C T, or Institute for Creative Technologies, research, Hollywood storytelling, and game design come together to create innovative technologies that support new ways of learning.
+brad_basicapplied	Our team at ICT performs basic research as well as develops applied projects.  You might have heard about SASO, Sergeant Star, Elect BiLat, Virtual Patient, or our PTSD work.  We also have museum guides, intelligent tutors, and  mixed reality projects.
+brad_uarc	eye C T is a university affiliated research center.
+brad_uscedu	The University of Southern California, or USC, is a leading research uiversity.  Check it out at u s c dot e d u.
+brad_rachelhere	Rachel and I are the only virtual humans here, but there are many more at eye C T.  There's Sergeant Star, Justina, Utah, Cabrillo
+brad_programmed	The things we've been programmed to say are somewhat limited.  But you can expand our verbal behavior.
+brad_boringyou	Are we boring you?
+brad_basicexamples	We are pretty basic examples and weren't given a lot of different lines.  But you can add more lines in the NPC Editor, if you'd like.
+brad_benice	Be nice Rachel.  Depending on the voice you selected in Windows, we can sound pretty bad!
+brad_cantsee	Currently, we can't see you, but with the Watson module we will!
+brad_sapi	My voice is part of Microsoft SAPI. You can install your own voice for me to use.
+brad_basictts	By default, we use a very basic text to speech engine.
+brad_speechmodels	You can train your own speech models with Pocket Sphinx. Please look online for details.
+brad_pocketsphinx	I use Pocket Sphinx to understand your voice.  It's a project from Carnegie Mellon University.
+brad_sodefensive	Rachel you're so defensive.
+brad_brains	Our brains are controlled by the NPC Editor.
+brad_npceditor	The N P C Editor is basically our brain. It listens to what you say and selects our response.
+brad_classifier	The N P C Editor is a statistical text classifier, matching our output to your input.
+brad_unityogre	By default we're rendered in Unity, but you can also see us in the Ogre rendering engine.
+brad_unitydefault	Unity is the default renderer for the V H Toolkit.  It's developed by Unity Technologies and used under license.
+brad_ogre	Ogre is a rendering engine that you can use to see me.
+brad_webcam	Watson can recognize your head movements with just a basic web cam. Unfortunately, it's not integrated with us yet. 
+brad_sbscheduled	All our animations are scheduled by SmartBody and timed to our voices, based on what the non verbal behavior generator has produced.
+brad_sblocomotion	Thanks to advances in Smart Body, I can walk using a procedural locomotion system.  Try it out by pressing T to make me step forward.
+brad_makemewalk	You can make me walk.  Hit T to make me walk forward, G to step back, and F and H to make me turn left and right.  Full instructions are in the documentation.
+brad_nvbganalyzes	The non verbal behavior generator analyzes the line I am saying and procedurally generates what gestures and body language I should use. 
+brad_nvbg	The nonverbal generator, or n v b g, looks at the text of what I'm saying, and generates the appropiate body language, like gaze and gestures.
+brad_opensource	Part of the tool kit is open source. Some modules are binary only, although that might change in the future.
+brad_keyboard	You can pan the camera with the A, W, S, and D, keys. Hit, J, to look around with the mouse.
+brad_goodyou	I'm good.  You?
+brad_hanging	Hanging in there.
+brad_threeofus	That makes 3 of us.
+brad_nada	Nada.  You?
+brad_wow	Wow!  That's awesome!
+brad_congrats	Congrats.
+brad_thatsucks	That sucks, I'm sorry.
+brad_lookbasic	I know we look pretty basic, but given enough time and resources there are few limits to how a toolkit character, us included, can look.
+brad_skindeep	Beauty's only skin deep, underneath this basic exterior lies a heart of gold.  Or at least a mesh and some joints.
+brad_well	Well
+brad_sounddelightful	If the system can't find my regular voice, it defaults back to the Windows standard voice.  Depending on your version of Windows, that can be a woman's voice.  Don't I sound delightful?
+brad_sapirightway	The basic Microsoft SAPI voices do not pronounce speech the right way. 
+brad_misunderstood	If I haven't answered your question I might have misunderstood what you said, or I am not programmed with that knowledge.
+brad_retargeting	Existing animations can be used on a variety of characters, but some don't exactly fit and need tweaking.
+brad_tweaking	I know I could use some tweaking.
+brad_shopping	Shopping is limited in our virtual world.
+brad_goodbadside	Well, the good side is I don't have to do things like eat or drink or change clothes; the bad side is I don’t get to eat or drink or change clothes!
+brad_littlesleep	I can get by on very little sleep.
+brad_hungry	I hardly ever get hungry.
+brad_byte	I do like to go out for a byte every now and then.  Get it?  Byte?  bee why, as in, ah well, never mind.
+brad_dontdrink	No, I don't drink.
+brad_license	Academic researchers and the government can use the tool kit free of charge, as long as they honor the license agreement. 
+brad_likegoingthere	I was programmed at USC, that's kinda like going to school there!
+brad_fighton	Fight on!
+brad_trojan	I am a Trojan through and through.
+brad_sgtstar	Our proud representative of the armed forces.
+brad_goodtosee	Good to see you, too.
+brad_nicemeet	Nice to meet you too.
+brad_youtoo	You too!
+brad_weathersgreat	Uh, the weather's great?  You do realize we're in your computer, right?
+brad_socal	We're from southern California, the weather is always nice.
+brad_dancing	My dancing is embarassing, to put it mildly.  Lets not do that.
+brad_rtay	Keep hoping R Tay.
+brad_height	Six foot.  Give or take a few pixels.
+brad_laughoncue	We aren't robots that laugh on cue.
+brad_randy	Great guy, but if he starts talking about mountain climbing one more time I'm not sure what I will do.
+brad_campus	Over there is eye C tease headquarters and the other features around are borrowed from various other eye C T projects.
+brad_painting	Personally I think this painting really captures my handsome looks.
+brad_textbooks	I'm mostly interested in computer science text books.
+brad_twentiethcentury	Books are so twentieth century.
+brad_pictures	The pictures are of eye C T and some of its virtual humans.
+brad_pictureswall	You can see some of the eye C T virtual humans in the pictures on the wall.
+brad_perez	The statue is Doctor Perez from the Sasso project.
+brad_statue	I should get a statue of every virtual human eye C T has ever created. That would be cool.
+brad_prettyneat	This room is pretty neat. I can even look outside.
+brad_likehouse	I like my house.
+brad_sunsets	The sun never sets in my world.
+brad_moreinfo	There's more information online.
+brad_night	Night.
+brad_hey	Hey!
+brad_goodmorning	Good morning.
+brad_noworries	No worries.
+brad_shutup	Both of you shut up!
+brad_nope	Nope it's not.
+brad_donteither	I don't either.
+brad_anythingelse	Anything else we can do to help?
+brad_otherquestions	What other questions can we answer for you?
+brad_liketoknow	Is there anything more you'd like to know?
+brad_verywelcome	You're very welcome!
+brad_yourewelcome	You're welcome!
+brad_anytime	Any time.
+brad_thanks	Thanks.
+brad_goodbye	Good bye.
+brad_byebye	Bye Bye now.
+brad_takecare	Take care.
+brad_seeya	See ya later.
+brad_haveagoodday	Have a good day.
+brad_alwayssure	I'm always sure.
+brad_alwayscertain	I'm always certain.
+brad_hi	Hi
+brad_hello	Hello
+brad_quitewell	Quite well, thank you.
+brad_okface	It's ok as far as faces go, I guess.
+brad_nobodyknows	Nobody knows.
+brad_ilikeyou	Thanks, I like you too.
+brad_nicetosay	That is so nice of you to say.
+brad_prettycool	This is all pretty cool.
+brad_sureido	Sure I do.
+brad_repeat	I'm sorry, can you repeat that?
+brad_isaid	I said
+brad_letfinish	Let me finish.
+brad_excuseme	Excuse me.
+brad_good	I am good.
+brad_dontknow	I don't know.
+brad_cannotanswer	I cannot answer that.
+brad_repeatthat	Could you repeat that?
+brad_sorryunderstand	Sorry, I did not understand you.
+brad_sorrycatch	Sorry, I didn't catch that.
+brad_couldsayagain 	Could you try saying that again?
+brad_onemoretime  	Could you try saying that one more time?
+brad_cansayagain 	Can you say that again?
+brad_answeredthat	I believe I've answered that.
+brad_askmeabout	Ask me about Text to Speech, or Smart Body
+brad_knowtoo	I would like to know that too.
+brad_nocomment	No comment.
+brad_somethingelse	I'd rather talk about something else.
+brad_talktoolkit	Why don't we talk about the Toolkit?
+brad_thoughttold	I thought I told you that already.  Huh.
+rachel_hi	Hi, I'm Rachel.
+rachel_applications	Virtual humans have many applications, from education, to research, to entertainment.
+rachel_yes	Yes.
+rachel_no	No.
+rachel_maybe	Maybe.
+rachel_notsure	I'm not sure.
+rachel_repeatthat	Can you repeat that?
+rachel_sayagain	Could you say that again?
+rachel_microphone	Is your microphone plugged in?  I can't hear you.
+rachel_thisisVHTK	I'm Rachel, and this is the Virtual Human Toolkit
+rachel_hiwelcomeTK	Hi, I'm Rachel, and welcome to the Toolkit.
+rachel_welcomeTK	Welcome to the Virtual Human Toolkit.
+rachel_documentation	Full documentation and tutorials are available on the Toolkit website.

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0.03" />We're
+            <sync id="T1" time="0.21" />
+            <sync id="T2" time="0.21" />part
+            <sync id="T3" time="0.63" />
+            <sync id="T4" time="0.63" />of
+            <sync id="T5" time="0.69" />
+            <sync id="T6" time="0.69" />USC
+            <sync id="T7" time="0.93" />
+            <sync id="T8" time="0.93" />the
+            <sync id="T9" time="1.26" />
+            <sync id="T10" time="1.46" />University
+            <sync id="T11" time="2.17" />
+            <sync id="T12" time="2.17" />of
+            <sync id="T13" time="2.26" />
+            <sync id="T14" time="2.26" />Southern
+            <sync id="T15" time="2.6" />
+            <sync id="T16" time="2.6" />California
+            <sync id="T17" time="3.23" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="rachel_usc" />
+        </description>
+    </speech>
+    <lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.03" end="0.03" />
+    <lips viseme="W" articulation="1.0" start="0.03" ready="0.03" relax="0.11" end="0.11" />
+    <lips viseme="Ih" articulation="1.0" start="0.11" ready="0.11" relax="0.19" end="0.19" />
+    <lips viseme="R" articulation="1.0" start="0.19" ready="0.19" relax="0.21" end="0.21" />
+    <lips viseme="BMP" articulation="1.0" start="0.21" ready="0.21" relax="0.32" end="0.32" />
+    <lips viseme="Aa" articulation="1.0" start="0.32" ready="0.32" relax="0.38" end="0.38" />
+    <lips viseme="R" articulation="1.0" start="0.38" ready="0.38" relax="0.48" end="0.48" />
+    <lips viseme="D" articulation="1.0" start="0.48" ready="0.48" relax="0.63" end="0.63" />
+    <lips viseme="Ah" articulation="1.0" start="0.63" ready="0.63" relax="0.69" end="0.69" />
+    <lips viseme="Ah" articulation="1.0" start="0.69" ready="0.69" relax="0.82" end="0.82" />
+    <lips viseme="Z" articulation="1.0" start="0.82" ready="0.82" relax="0.91" end="0.91" />
+    <lips viseme="Kg" articulation="1.0" start="0.91" ready="0.91" relax="0.93" end="0.93" />
+    <lips viseme="Th" articulation="1.0" start="0.93" ready="0.93" relax="1" end="1" />
+    <lips viseme="Ih" articulation="1.0" start="1" ready="1" relax="1.26" end="1.26" />
+    <lips viseme="_" articulation="1.0" start="1.26" ready="1.26" relax="1.46" end="1.46" />
+    <lips viseme="Sh" articulation="1.0" start="1.46" ready="1.46" relax="1.61" end="1.61" />
+    <lips viseme="W" articulation="1.0" start="1.61" ready="1.61" relax="1.65" end="1.65" />
+    <lips viseme="D" articulation="1.0" start="1.65" ready="1.65" relax="1.69" end="1.69" />
+    <lips viseme="Ah" articulation="1.0" start="1.69" ready="1.69" relax="1.73" end="1.73" />
+    <lips viseme="F" articulation="1.0" start="1.73" ready="1.73" relax="1.79" end="1.79" />
+    <lips viseme="Er" articulation="1.0" start="1.79" ready="1.79" relax="1.87" end="1.87" />
+    <lips viseme="Z" articulation="1.0" start="1.87" ready="1.87" relax="2" end="2" />
+    <lips viseme="Ih" articulation="1.0" start="2" ready="2" relax="2.04" end="2.04" />
+    <lips viseme="D" articulation="1.0" start="2.04" ready="2.04" relax="2.06" end="2.06" />
+    <lips viseme="Ih" articulation="1.0" start="2.06" ready="2.06" relax="2.17" end="2.17" />
+    <lips viseme="Ah" articulation="1.0" start="2.17" ready="2.17" relax="2.21" end="2.21" />
+    <lips viseme="F" articulation="1.0" start="2.21" ready="2.21" relax="2.26" end="2.26" />
+    <lips viseme="Z" articulation="1.0" start="2.26" ready="2.26" relax="2.35" end="2.35" />
+    <lips viseme="Ah" articulation="1.0" start="2.35" ready="2.35" relax="2.43" end="2.43" />
+    <lips viseme="Th" articulation="1.0" start="2.43" ready="2.43" relax="2.46" end="2.46" />
+    <lips viseme="Ah" articulation="1.0" start="2.46" ready="2.46" relax="2.54" end="2.54" />
+    <lips viseme="D" articulation="1.0" start="2.54" ready="2.54" relax="2.6" end="2.6" />
+    <lips viseme="Kg" articulation="1.0" start="2.6" ready="2.6" relax="2.65" end="2.65" />
+    <lips viseme="Ah" articulation="1.0" start="2.65" ready="2.65" relax="2.73" end="2.73" />
+    <lips viseme="L" articulation="1.0" start="2.73" ready="2.73" relax="2.8" end="2.8" />
+    <lips viseme="Ah" articulation="1.0" start="2.8" ready="2.8" relax="2.83" end="2.83" />
+    <lips viseme="F" articulation="1.0" start="2.83" ready="2.83" relax="2.93" end="2.93" />
+    <lips viseme="Aa" articulation="1.0" start="2.93" ready="2.93" relax="3" end="3" />
+    <lips viseme="R" articulation="1.0" start="3" ready="3" relax="3.06" end="3.06" />
+    <lips viseme="D" articulation="1.0" start="3.06" ready="3.06" relax="3.1" end="3.1" />
+    <lips viseme="Sh" articulation="1.0" start="3.1" ready="3.1" relax="3.15" end="3.15" />
+    <lips viseme="Ah" articulation="1.0" start="3.15" ready="3.15" relax="3.23" end="3.23" />
+    <lips viseme="_" articulation="1.0" start="3.23" ready="3.23" relax="3.306" end="3.306" />
+    <curves>
+        <curve name="open" num_keys="35" owner="analysis">0.007333 0 0 0 0.07934 0.452632 0 0 0.154196 0 0 0 0.288869 0.546377 0 0 0.357615 0.4 0 0 0.594275 0.5 0 0 0.768638 0.175832 0 0 0.85 0.384997 2.570785 0.970796 0.93626 0.468738 0 0 1.033333 0.169165 -3.086033 -0.475578 1.220471 0.080167 0 0 1.57508 0.398867 0 0 1.6816 0.005215 0 0 1.762743 0.388893 0 0 1.841353 0.154995 0 0 1.964462 0.499321 0 0 2.016666 0.237865 -5.008385 -1.460583 2.099999 0.11615 -1.460583 -1.629921 2.159145 0.019746 0 0 2.233332 0.422585 5.430043 0.340286 2.516665 0.518999 0.340286 1.192333 2.542665 0.55 0 0 2.607332 0.55 0 0 2.621233 0.502439 0 0 2.675998 0.55 0 0 2.707332 0.55 0 0 2.783333 0.001248 0 0 2.901228 0.55 0 0 2.966665 0.400989 -2.277171 -0.153472 3.046604 0.388721 0 0 3.092665 0.55 0 0 3.123998 0.55 0 0 3.166665 0.46577 -1.974145 -0.790556 3.349998 0.320835 -0.790556 -0.853284 3.725997 0 0 0</curve>
+        <curve name="W" num_keys="9" owner="analysis">-0.392667 0 0 0 -0.007497 0.85 0 0 0.092667 0 0 0 1.174 0 0 0 1.574856 0.548207 0 0 1.675999 0 0 0 2.907331 0 0 0 2.97215 0.546373 0 0 3.075998 0 0 0</curve>
+        <curve name="ShCh" num_keys="9" owner="analysis">0.290667 0 0 0 0.357279 0.5 0 0 0.592667 0 0 0 1.673999 0 0 0 1.760027 0.477612 0 0 1.842666 0 0 0 2.973998 0 0 0 3.068296 0.470681 0 0 3.159331 0 0 0</curve>
+        <curve name="PBM" num_keys="3" owner="analysis">-0.009333 0 0 0 0.148734 0.9 0 0 0.292667 0 0 0</curve>
+        <curve name="FV" num_keys="10" owner="analysis">1.507333 0 0 0 1.676417 0.737205 0 0 1.759332 0 0 0 1.973999 0 0 0 2.016666 0.210926 4.943562 3.731613 2.157474 0.736368 0 0 2.292665 0 0 0 2.623998 0 0 0 2.778635 0.748298 0 0 2.892665 0 0 0</curve>
+        <curve name="wide" num_keys="25" owner="analysis">0.007333 0 0 0 0.07934 0.543159 0 0 0.142667 0 0 0 0.357334 0 0 0 0.604981 0.6 0 0 0.8 0.443589 -0.802027 -4.645517 0.895488 0 0 0 0.979713 0.659035 0 0 1.425999 0 0 0 1.573999 0 0 0 1.650417 0.048915 0 0 1.675999 0 0 0 1.757332 0 0 0 1.833332 0.491081 6.4616 0.815435 1.966666 0.599806 0.815435 3.105984 2.030652 0.798547 0 0 2.159926 0.023696 0 0 2.216666 0.453128 7.568516 1.864764 2.240031 0.4967 0 0 2.528811 0.019516 0 0 2.618997 0.566191 0 0 2.692665 0 0 0 3.057331 0 0 0 3.134305 0.567705 0 0 3.725997 0 0 0</curve>
+        <curve name="tBack" num_keys="24" owner="analysis">-0.006 0 0 0 0.079493 0.355218 0 0 0.146 0 0 0 0.427334 0 0 0 0.596 0.4 0 0 0.660667 0.4 0 0 0.796 0 0 0 1.577333 0 0 0 1.649783 0.03343 0 0 1.679332 0 0 0 1.843999 0 0 0 1.964462 0.248 0 0 2.030029 0.006603 0 0 2.129461 0.034021 0 0 2.163895 0.006071 0 0 2.315146 0.389629 0 0 2.399669 0.003199 0 0 2.437718 0.091499 0 0 2.500836 0.001837 0 0 2.576417 0.656867 0 0 2.695998 0 0 0 3.077331 0 0 0 3.126511 0.306666 0 0 3.279331 0 0 0</curve>
+        <curve name="tRoof" num_keys="28" owner="analysis">0.344 0 0 0 0.425928 0.8 0 0 0.596 0 0 0 0.660667 0 0 0 0.788594 0.399225 0 0 0.900386 0.001088 0 0 0.97 0.165185 2.357262 0.521141 1.419949 0.399672 0 0 1.570808 0.005097 0 0 1.622577 0.383728 0 0 1.679374 0.014757 0 0 1.771159 0.496371 0 0 1.943757 0.230848 0 0 2.007195 0.311918 0 0 2.053332 0.145937 -3.597571 -1.475516 2.151764 0.0007 0 0 2.231625 0.196188 0 0 2.329332 0 0 0 2.377332 0 0 0 2.506892 0.793516 0 0 2.595999 0 0 0 2.627332 0 0 0 2.700223 0.795953 0 0 2.779332 0 0 0 2.960665 0 0 0 3.035137 0.633371 0 0 3.069998 0.4 -6.694351 -4.316549 3.162665 0 0 0</curve>
+        <curve name="tTeeth" num_keys="6" owner="analysis">0.694 0 0 0 0.898221 0.898688 0 0 1.046 0 0 0 2.310665 0 0 0 2.400589 0.896494 0 0 2.495999 0 0 0</curve>
+        <curve name="au_45" num_keys="3" owner="analysis">2.573091 0 0 0 2.704084 0.989222 0 0 2.791757 0 0 0</curve>
+        <curve name="Eye Pitch" num_keys="6" owner="analysis">-0.376907 0 0 0 0.281321 2.365621 0 0 1.008421 0.095936 0 0 1.353562 0.162883 0 0 1.691758 0 0 0 2.675091 0 0 0</curve>
+        <curve name="Eye Yaw" num_keys="6" owner="analysis">0.323093 0 0 0 1.225092 -0.642418 0 0 1.439759 -0.642418 0 0 1.641758 -0.937049 0 0 2.173091 -0.937048 0 0 2.675091 0 0 0</curve>
+        <curve name="au_1" num_keys="5" owner="analysis">0.206426 0 0 0 0.693077 0.375284 0 0 1.459479 0.007467 0 0 1.948853 0.64898 0 0 2.608424 0 0 0</curve>
+        <curve name="Head Pitch" num_keys="5" owner="analysis">-0.376907 0 0 0 0.281321 -2.365621 0 0 1.008421 -0.095936 0 0 1.353562 -0.162883 0 0 1.691758 0 0 0</curve>
+        <curve name="Head Roll" num_keys="3" owner="analysis">1.456425 0 0 0 1.795172 1.599329 0 0 2.558424 0 0 0</curve>
+        <curve name="Head Yaw" num_keys="4" owner="analysis">0.323093 0 0 0 1.225092 0.642418 0 0 2.173091 0.642418 0 0 2.675091 0 0 0</curve>
+    </curves>
+</bml>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />See
+            <sync id="T1" time="0.17" />
+            <sync id="T2" time="0.17" />ya
+            <sync id="T3" time="0.31" />
+            <sync id="T4" time="0.31" />later
+            <sync id="T5" time="0.72" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_seeya" />
+        </description>
+    </speech>
+    <lips viseme="Z" articulation="1.0" start="0" ready="0" relax="0.1" end="0.1" />
+    <lips viseme="Ih" articulation="1.0" start="0.1" ready="0.1" relax="0.17" end="0.17" />
+    <lips viseme="Sh" articulation="1.0" start="0.17" ready="0.17" relax="0.26" end="0.26" />
+    <lips viseme="Ah" articulation="1.0" start="0.26" ready="0.26" relax="0.31" end="0.31" />
+    <lips viseme="L" articulation="1.0" start="0.31" ready="0.31" relax="0.38" end="0.38" />
+    <lips viseme="Eh" articulation="1.0" start="0.38" ready="0.38" relax="0.48" end="0.48" />
+    <lips viseme="D" articulation="1.0" start="0.48" ready="0.48" relax="0.53" end="0.53" />
+    <lips viseme="Er" articulation="1.0" start="0.53" ready="0.53" relax="0.72" end="0.72" />
+    <lips viseme="_" articulation="1.0" start="0.72" ready="0.72" relax="0.758" end="0.758" />
+    <curves>
+        <curve name="open" num_keys="7" owner="analysis">-0.422667 0 0 0 0.07 0.2 0.405954 3.207007 0.12 0.36035 3.207007 1.250862 0.230574 0.498663 0 0 0.356379 0.350073 0 0 0.503699 0.399971 0 0 1.179333 0 0 0</curve>
+        <curve name="ShCh" num_keys="6" owner="analysis">0.077333 0 0 0 0.141403 0.496707 0 0 0.229333 0 0 0 0.344 0 0 0 0.50999 0.499964 0 0 1.179333 0 0 0</curve>
+        <curve name="wide" num_keys="8" owner="analysis">-0.422667 0 0 0 -0.013333 0.522223 1.275788 3.574555 0.064376 0.8 0 0 0.142247 0.005269 0 0 0.234284 0.596879 0 0 0.32 0.304687 -3.40884 -1.524331 0.403334 0.177659 -1.524331 -1.917184 0.496 0 0 0</curve>
+        <curve name="tBack" num_keys="3" owner="analysis">0.144 0 0 0 0.228491 0.387356 0 0 0.296 0 0 0</curve>
+        <curve name="tRoof" num_keys="10" owner="analysis">-0.422667 0 0 0 -0.036329 0.4 0 0 0.067352 0.2 0 0 0.13885 0.398683 0 0 0.224932 0.013717 0 0 0.285968 0.677615 0 0 0.354371 0.20123 0 0 0.469392 0.67101 0 0 0.52 0.463468 -4.100903 -2.214022 0.729333 0 0 0</curve>
+    </curves>
+</bml>

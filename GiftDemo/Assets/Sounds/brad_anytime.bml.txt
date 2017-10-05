@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0" />Any
+            <sync id="T1" time="0.18" />
+            <sync id="T2" time="0.18" />time
+            <sync id="T3" time="0.56" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="brad_anytime" />
+        </description>
+    </speech>
+    <lips viseme="Eh" articulation="1.0" start="0" ready="0" relax="0.06" end="0.06" />
+    <lips viseme="D" articulation="1.0" start="0.06" ready="0.06" relax="0.1" end="0.1" />
+    <lips viseme="Ih" articulation="1.0" start="0.1" ready="0.1" relax="0.18" end="0.18" />
+    <lips viseme="D" articulation="1.0" start="0.18" ready="0.18" relax="0.3" end="0.3" />
+    <lips viseme="Ah" articulation="1.0" start="0.3" ready="0.3" relax="0.375" end="0.375" />
+    <lips viseme="Ih" articulation="1.0" start="0.375" ready="0.375" relax="0.45" end="0.45" />
+    <lips viseme="BMP" articulation="1.0" start="0.45" ready="0.45" relax="0.56" end="0.56" />
+    <lips viseme="_" articulation="1.0" start="0.56" ready="0.56" relax="0.644" end="0.644" />
+    <curves>
+        <curve name="open" num_keys="5" owner="analysis">-0.422667 0 0 0 -0.036629 0.5 0 0 0.074835 0.2 0 0 0.264777 0.5 0 0 0.396 0 0 0</curve>
+        <curve name="PBM" num_keys="3" owner="analysis">0.260667 0 0 0 0.396902 0.898859 0 0 1.029333 0 0 0</curve>
+        <curve name="wide" num_keys="5" owner="analysis">-0.422667 0 0 0 -0.013333 0.614815 1.501991 2.100349 0.074835 0.8 0 0 0.32 0.557159 -0.990522 -7.33103 0.396 0 0 0</curve>
+        <curve name="tBack" num_keys="6" owner="analysis">-0.422667 0 0 0 -0.037661 0.4 0 0 0.046 0 0 0 0.110667 0 0 0 0.266736 0.4 0 0 0.379334 0 0 0</curve>
+        <curve name="tRoof" num_keys="7" owner="analysis">-0.022667 0 0 0 0.032066 0.562126 0 0 0.070153 0.219625 0 0 0.122427 0.578049 0 0 0.272386 0 0 0 0.341683 0.082775 0 0 0.396 0 0 0</curve>
+        <curve name="Head Roll" num_keys="3" owner="analysis">-0.065333 0 0 0 0.304683 -1.59932 0 0 1.136666 0 0 0</curve>
+    </curves>
+</bml>
