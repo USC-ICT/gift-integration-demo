@@ -808,6 +808,24 @@ public class Main : VHMain
 
             if (m_controllerMenuSelected == ControllerMenus.NOMENU)
             {
+                GUILayout.Label("Scene:");
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Customizer", GUILayout.Width(50)))
+                {
+                    if (VHUtils.SceneManagerActiveSceneName() != "Customizer")
+                    {
+                        VHUtils.SceneManagerLoadScene("Customizer");
+                    }
+                }
+                if (GUILayout.Button("House", GUILayout.Width(50)))
+                {
+                    if (VHUtils.SceneManagerActiveSceneName() != "House")
+                    {
+                        VHUtils.SceneManagerLoadScene("House");
+                    }
+                }
+                GUILayout.EndHorizontal();
+
                 GUILayout.Label("Character:");
                 GUILayout.BeginHorizontal();
                 if (GUILayout.Button("Create", GUILayout.Width(50)))
