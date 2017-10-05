@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChrBradHeadPale_Mat
+  m_Shader: {fileID: 4800000, guid: b1f7d3edb7c5d2e4b8286fa6f5625370, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0dc9ee4c92b7a8e45b4ba362fc05f348, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8a412d97b4f66fb4eb1bdeb4b4a7d8bf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 7c1825a9b4808b645bf66e17c5fbb6a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FresMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 0dc9ee4c92b7a8e45b4ba362fc05f348, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Albedo
+        second:
+          m_Texture: {fileID: 2800000, guid: 0dc9ee4c92b7a8e45b4ba362fc05f348, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalR
+        second:
+          m_Texture: {fileID: 2800000, guid: d827c181178229646903cb861532cb1f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalG
+        second:
+          m_Texture: {fileID: 2800000, guid: 6f44643cef3319f4b83dccb2eea74184, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalB
+        second:
+          m_Texture: {fileID: 2800000, guid: bc559b346f7d74c449620b222198a501, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalS
+        second:
+          m_Texture: {fileID: 2800000, guid: 8a412d97b4f66fb4eb1bdeb4b4a7d8bf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
+      data:
+        first:
+          name: _FresnelStrength
+        second: .100000001
+      data:
+        first:
+          name: _FresnelSpread
+        second: 2
+      data:
+        first:
+          name: _DiffuseIntensity
+        second: 1
+      data:
+        first:
+          name: _SpecularIntensity
+        second: .537313402
+      data:
+        first:
+          name: _SpecularExponent
+        second: 5.07462692
+      data:
+        first:
+          name: _AsperityIntensity
+        second: .477611929
+      data:
+        first:
+          name: _AsperityExponent
+        second: 2.14925385
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .941176474, g: .941176474, b: .941176474, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .264705896, g: .264705896, b: .264705896, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SSSColor
+        second: {r: .828360617, g: .828360617, b: .828360617, a: 1}

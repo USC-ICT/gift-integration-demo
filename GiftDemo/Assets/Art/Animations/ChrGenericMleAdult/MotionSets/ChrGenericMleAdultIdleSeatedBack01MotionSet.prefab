@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 440800}
+  - 114: {fileID: 11499530}
+  - 114: {fileID: 11433986}
+  m_Layer: 0
+  m_Name: ChrGenericMleAdultIdleSeatedBack01MotionSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440800
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11433986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c3d1d5e2711264483609bf92fa79cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11499530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9429a677a774ce4a8dae297fea4574e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadType: 0
+  m_SecondsBeforeLoading: 0
+  m_StreamingCompletionTime: 5
+  m_MinimumFramerate: 30
+  m_fpsCounter: {fileID: 0}
+  m_ReferenceCharacter: {fileID: 11400000, guid: 1549afbe294f55640bafd0a39afa7e08,
+    type: 2}
+  m_AllMotionsFinishedLoadingReceiver: {fileID: 0}
+  m_AllMotionsFinishedLoadingCallback: 
+  m_MotionsList:
+  - {fileID: 11408750, guid: 142dab65fd1b9bc46ad8e503e35e17f9, type: 2}
+  - {fileID: 11467862, guid: b18df5c233710d14182ef88380bfc001, type: 2}
+  - {fileID: 11438472, guid: a2af7f4a74237864f9ab98d8f2b17a24, type: 2}
+  - {fileID: 11403964, guid: a30a070ddacd78c46800bd45674b0c4c, type: 2}
+  - {fileID: 11436528, guid: 20c12c5a9990aad4a988db90a54b96e9, type: 2}
+  - {fileID: 11487234, guid: fbb29970d9f46ce40bed2ee72966b87e, type: 2}
+  - {fileID: 11476792, guid: b6d325de70dc7c3499fa8a9b24625236, type: 2}
+  - {fileID: 11428320, guid: 545b21be4a7cf1d4c9cf9ec97942e876, type: 2}
+  - {fileID: 11401108, guid: 14914e23f303c1844beaa08ccd89c0a0, type: 2}
+  - {fileID: 11405510, guid: e55a8a0c61c39054dbd2caddad586b05, type: 2}
+  - {fileID: 11481694, guid: 7a01f43345592a64ba20d1d5206fc175, type: 2}
+  - {fileID: 11451340, guid: a9f95a45f0f46894f840e68f413a0315, type: 2}
+  - {fileID: 11462274, guid: 2f29a4347c8ed2e468a85921dad5e363, type: 2}
+  - {fileID: 11410486, guid: 694924db6b4260b4297f97b02b2e4345, type: 2}
+  - {fileID: 11489628, guid: 8904c4c49407f5946870f432f213537f, type: 2}
+  - {fileID: 11408296, guid: 284407cd8fe83d243802f5af527c38d5, type: 2}
+  - {fileID: 11472082, guid: 197e9b0f63919874495a956caef27704, type: 2}
+  - {fileID: 11448232, guid: 439c74eea5fb19c4bb61409082e03856, type: 2}
+  - {fileID: 11407536, guid: 7eadfb559e82ca34d9752d0d89af9089, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_MotionsList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141498}
+  m_IsPrefabParent: 1

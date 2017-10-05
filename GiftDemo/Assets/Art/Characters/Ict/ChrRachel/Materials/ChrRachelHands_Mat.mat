@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChrRachelHands_Mat
+  m_Shader: {fileID: 4800000, guid: b1f7d3edb7c5d2e4b8286fa6f5625370, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 999be7bb74673734a87f6a493bcca72e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: dd5ddf1b25454024e88d834a5a2865de, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FresMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 999be7bb74673734a87f6a493bcca72e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Albedo
+        second:
+          m_Texture: {fileID: 2800000, guid: 999be7bb74673734a87f6a493bcca72e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalR
+        second:
+          m_Texture: {fileID: 2800000, guid: 08f68d56fa674ec4285a4c48de671f05, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalG
+        second:
+          m_Texture: {fileID: 2800000, guid: b2f5536d86695804a92838940cdcfe89, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalB
+        second:
+          m_Texture: {fileID: 2800000, guid: 861c51c982f230a4786052f8acc1b802, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalS
+        second:
+          m_Texture: {fileID: 2800000, guid: dd5ddf1b25454024e88d834a5a2865de, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalD
+        second:
+          m_Texture: {fileID: 2800000, guid: c212c92b533ba9542b5aea65f1ee52f2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.01
+      data:
+        first:
+          name: _FresnelStrength
+        second: 0.05
+      data:
+        first:
+          name: _FresnelSpread
+        second: 1
+      data:
+        first:
+          name: _DiffuseIntensity
+        second: 1
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 0
+      data:
+        first:
+          name: _SpecularExponent
+        second: 4.850746
+      data:
+        first:
+          name: _AsperityIntensity
+        second: 0.24280384
+      data:
+        first:
+          name: _AsperityExponent
+        second: 5.022388
+      data:
+        first:
+          name: _SpecularExponent1
+        second: 4.357143
+      data:
+        first:
+          name: _SpecularExponent2
+        second: 4.0714283
+      data:
+        first:
+          name: _SpecularSplit
+        second: 0.23214287
+      data:
+        first:
+          name: _FresnelExponent
+        second: 3.392857
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.8455882, g: 0.8455882, b: 0.8455882, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.21323532, g: 0.21323532, b: 0.21323532, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SSSColor
+        second: {r: 0.89705884, g: 0.89705884, b: 0.89705884, a: 1}

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400020}
+  - 114: {fileID: 11497234}
+  m_Layer: 0
+  m_Name: BradIdle02MotionSet_Stream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9429a677a774ce4a8dae297fea4574e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadType: 0
+  m_SecondsBeforeLoading: 0
+  m_StreamingCompletionTime: 0
+  m_MinimumFramerate: 20
+  m_fpsCounter: {fileID: 0}
+  m_ReferenceCharacter: {fileID: 11400000, guid: 11f1f6c8c3d4f1e43831daee549da05f,
+    type: 2}
+  m_AllMotionsFinishedLoadingReceiver: {fileID: 0}
+  m_AllMotionsFinishedLoadingCallback: 
+  m_MotionsList:
+  - {fileID: 11400000, guid: bfface8a4934b404f8e95c452f521e90, type: 2}
+  - {fileID: 11400000, guid: ebfc994b55e43774798a3054bdd8f658, type: 2}
+  - {fileID: 11400000, guid: b8fa8c5907a134e49bc28644249829ad, type: 2}
+  - {fileID: 11400000, guid: a0c924723df2d5e4484433a3c9ce88ae, type: 2}
+  - {fileID: 11400000, guid: 803c0e78746e54647a690525343a6ea1, type: 2}
+  - {fileID: 11400000, guid: 92b7227daa35ed249a87a531506197be, type: 2}
+  - {fileID: 11400000, guid: 2fee70161071e3f45a4345136dfee910, type: 2}
+  - {fileID: 11400000, guid: 7971745f248c1b3499779cbcce3354ea, type: 2}
+  - {fileID: 11400000, guid: e53a9e078c5e0524299a0a5791997d24, type: 2}
+  - {fileID: 11400000, guid: 771fb2e8ceff3514eb81f6f0c4bbb4d9, type: 2}
+  - {fileID: 11400000, guid: cca741350456d0d469864180f67de098, type: 2}
+  - {fileID: 11400000, guid: 73752b8bcb1e4614383120b459e13056, type: 2}
+  - {fileID: 11400000, guid: 80758f61d1c66414192abc2434e18c1a, type: 2}
+  - {fileID: 11400000, guid: 8e43d8c1ad60a754f8e50c2f788f7056, type: 2}
+  - {fileID: 11400000, guid: c289c8f9692fd6c48b1320fe63ee431a, type: 2}
+  - {fileID: 11400000, guid: 247fcd9ba4a5c1449855807d484c197c, type: 2}
+  - {fileID: 11400000, guid: bcac2cdf2290ea0478a8e229d239fe73, type: 2}
+  - {fileID: 11400000, guid: 03b256e70e0627646a0d128acc91dd57, type: 2}
+  - {fileID: 11400000, guid: b3a93b754dcf3c8429957b43994cf543, type: 2}
+  - {fileID: 11400000, guid: 36933ea99b0a4ee4c96d6f6f3d624e7f, type: 2}
+  - {fileID: 11400000, guid: b1e37e7d714a99f4c9862b7a3dbb5292, type: 2}
+  - {fileID: 11400000, guid: b7a8d308e044a1e4f9eaeaa095c54016, type: 2}
+--- !u!114 &11497234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c3d1d5e2711264483609bf92fa79cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100020}
+  m_IsPrefabParent: 1

@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ChrBrad@IdleStandingUpright01_IndicateRightBt01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b50688e7983bec45a8f65c2481b3f50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MotionData:
+    m_Channels:
+    - JtRoot Quat
+    - JtRoot XPos
+    - JtRoot YPos
+    - JtRoot ZPos
+    - JtHipRt Quat
+    - JtHipRt XPos
+    - JtHipRt YPos
+    - JtHipRt ZPos
+    - JtKneeRt Quat
+    - JtKneeRt XPos
+    - JtKneeRt YPos
+    - JtKneeRt ZPos
+    - JtAnkleRt Quat
+    - JtAnkleRt XPos
+    - JtAnkleRt YPos
+    - JtAnkleRt ZPos
+    - JtBallRt Quat
+    - JtBallRt XPos
+    - JtBallRt YPos
+    - JtBallRt ZPos
+    - JtToeRt Quat
+    - JtToeRt XPos
+    - JtToeRt YPos
+    - JtToeRt ZPos
+    - JtHipLf Quat
+    - JtHipLf XPos
+    - JtHipLf YPos
+    - JtHipLf ZPos
+    - JtKneeLf Quat
+    - JtKneeLf XPos
+    - JtKneeLf YPos
+    - JtKneeLf ZPos
+    - JtAnkleLf Quat
+    - JtAnkleLf XPos
+    - JtAnkleLf YPos
+    - JtAnkleLf ZPos
+    - JtBallLf Quat
+    - JtBallLf XPos
+    - JtBallLf YPos
+    - JtBallLf ZPos
+    - JtToeLf Quat
+    - JtToeLf XPos
+    - JtToeLf YPos
+    - JtToeLf ZPos
+    - JtSpineA Quat
+    - JtSpineA XPos
+    - JtSpineA YPos
+    - JtSpineA ZPos
+    - JtSpineB Quat
+    - JtSpineB XPos
+    - JtSpineB YPos
+    - JtSpineB ZPos
+    - JtSpineC Quat
+    - JtSpineC XPos
+    - JtSpineC YPos
+    - JtSpineC ZPos
+    - JtClavicleLf Quat
+    - JtClavicleLf XPos
+    - JtClavicleLf YPos
+    - JtClavicleLf ZPos
+    - JtShoulderLf Quat
+    - JtShoulderLf XPos
+    - JtShoulderLf YPos
+    - JtShoulderLf ZPos
+    - JtUpperArmTwistALf Quat
+    - JtUpperArmTwistALf XPos
+    - JtUpperArmTwistALf YPos
+    - JtUpperArmTwistALf ZPos
+    - JtUpperArmTwistBLf Quat
+    - JtUpperArmTwistBLf XPos
+    - JtUpperArmTwistBLf YPos
+    - JtUpperArmTwistBLf ZPos
+    - JtElbowLf Quat
+    - JtElbowLf XPos
+    - JtElbowLf YPos
+    - JtElbowLf ZPos
+    - JtForearmTwistALf Quat
+    - JtForearmTwistALf XPos
+    - JtForearmTwistALf YPos
+    - JtForearmTwistALf ZPos
+    - JtForearmTwistBLf Quat
+    - JtForearmTwistBLf XPos
+    - JtForearmTwistBLf YPos
+    - JtForearmTwistBLf ZPos
+    - JtWristLf Quat
+    - JtWristLf XPos
+    - JtWristLf YPos
+    - JtWristLf ZPos
+    - JtLittleALf Quat
+    - JtLittleALf XPos
+    - JtLittleALf YPos
+    - JtLittleALf ZPos
+    - JtLittleBLf Quat
+    - JtLittleBLf XPos
+    - JtLittleBLf YPos
+    - JtLittleBLf ZPos
+    - JtLittleCLf Quat
+    - JtLittleCLf XPos
+    - JtLittleCLf YPos
+    - JtLittleCLf ZPos
+    - JtThumbALf Quat
+    - JtThumbALf XPos
+    - JtThumbALf YPos
+    - JtThumbALf ZPos
+    - JtThumbBLf Quat
+    - JtThumbBLf XPos
+    - JtThumbBLf YPos
+    - JtThumbBLf ZPos
+    - JtThumbCLf Quat
+    - JtThumbCLf XPos
+    - JtThumbCLf YPos
+    - JtThumbCLf ZPos
+    - JtRingALf Quat
+    - JtRingALf XPos
+    - JtRingALf YPos
+    - JtRingALf ZPos
+    - JtRingBLf Quat
+    - JtRingBLf XPos
+    - JtRingBLf YPos
+    - JtRingBLf ZPos
+    - JtRingCLf Quat
+    - JtRingCLf XPos
+    - JtRingCLf YPos
+    - JtRingCLf ZPos
+    - JtIndexALf Quat
+    - JtIndexALf XPos
+    - JtIndexALf YPos
+    - JtIndexALf ZPos
+    - JtIndexBLf Quat
+    - JtIndexBLf XPos
+    - JtIndexBLf YPos
+    - JtIndexBLf ZPos
+    - JtIndexCLf Quat
+    - JtIndexCLf XPos
+    - JtIndexCLf YPos
+    - JtIndexCLf ZPos
+    - JtMiddleALf Quat
+    - JtMiddleALf XPos
+    - JtMiddleALf YPos
+    - JtMiddleALf ZPos
+    - JtMiddleBLf Quat
+    - JtMiddleBLf XPos
+    - JtMiddleBLf YPos
+    - JtMiddleBLf ZPos
+    - JtMiddleCLf Quat
+    - JtMiddleCLf XPos
+    - JtMiddleCLf YPos
+    - JtMiddleCLf ZPos
+    - JtNeckA Quat
+    - JtNeckA XPos
+    - JtNeckA YPos
+    - JtNeckA ZPos
+    - JtNeckB Quat
+    - JtNeckB XPos
+    - JtNeckB YPos
+    - JtNeckB ZPos
+    - JtSkullA Quat
+    - JtSkullA XPos
+    - JtSkullA YPos
+    - JtSkullA ZPos
+    - JtCheekLowerRt Quat
+    - JtCheekLowerRt XPos
+    - JtCheekLowerRt YPos
+    - JtCheekLowerRt ZPos
+    - JtLipCornerRt Quat
+    - JtLipCornerRt XPos
+    - JtLipCornerRt YPos
+    - JtLipCornerRt ZPos
+    - JtCheekUpperLf Quat
+    - JtCheekUpperLf XPos
+    - JtCheekUpperLf YPos
+    - JtCheekUpperLf ZPos
+    - JtLipUpperLf Quat
+    - JtLipUpperLf XPos
+    - JtLipUpperLf YPos
+    - JtLipUpperLf ZPos
+    - JtJaw Quat
+    - JtJaw XPos
+    - JtJaw YPos
+    - JtJaw ZPos
+    - JtTongueA Quat
+    - JtTongueA XPos
+    - JtTongueA YPos
+    - JtTongueA ZPos
+    - JtTongueB Quat
+    - JtTongueB XPos
+    - JtTongueB YPos
+    - JtTongueB ZPos
+    - JtTongueC Quat
+    - JtTongueC XPos
+    - JtTongueC YPos
+    - JtTongueC ZPos
+    - JtLipLowerLf Quat
+    - JtLipLowerLf XPos
+    - JtLipLowerLf YPos
+    - JtLipLowerLf ZPos
+    - JtLipLowerRt Quat
+    - JtLipLowerRt XPos
+    - JtLipLowerRt YPos
+    - JtLipLowerRt ZPos
+    - JtLipLowerMid Quat
+    - JtLipLowerMid XPos
+    - JtLipLowerMid YPos
+    - JtLipLowerMid ZPos
+    - JtLipUpperMid Quat
+    - JtLipUpperMid XPos
+    - JtLipUpperMid YPos
+    - JtLipUpperMid ZPos
+    - JtLipUpperRt Quat
+    - JtLipUpperRt XPos
+    - JtLipUpperRt YPos
+    - JtLipUpperRt ZPos
+    - JtCheekUpperRt Quat
+    - JtCheekUpperRt XPos
+    - JtCheekUpperRt YPos
+    - JtCheekUpperRt ZPos
+    - JtLipCornerLf Quat
+    - JtLipCornerLf XPos
+    - JtLipCornerLf YPos
+    - JtLipCornerLf ZPos
+    - JtCheekLowerLf Quat
+    - JtCheekLowerLf XPos
+    - JtCheekLowerLf YPos
+    - JtCheekLowerLf ZPos
+    - JtEyebrow03Rt Quat
+    - JtEyebrow03Rt XPos
+    - JtEyebrow03Rt YPos
+    - JtEyebrow03Rt ZPos
+    - JtEyebrow01Rt Quat
+    - JtEyebrow01Rt XPos
+    - JtEyebrow01Rt YPos
+    - JtEyebrow01Rt ZPos
+    - JtEyebrow04Rt Quat
+    - JtEyebrow04Rt XPos
+    - JtEyebrow04Rt YPos
+    - JtEyebrow04Rt ZPos
+    - JtEyebrow02Rt Quat
+    - JtEyebrow02Rt XPos
+    - JtEyebrow02Rt YPos
+    - JtEyebrow02Rt ZPos
+    - JtEyelidLowerLf Quat
+    - JtEyelidLowerLf XPos
+    - JtEyelidLowerLf YPos
+    - JtEyelidLowerLf ZPos
+    - JtEyebrow02Lf Quat
+    - JtEyebrow02Lf XPos
+    - JtEyebrow02Lf YPos
+    - JtEyebrow02Lf ZPos
+    - JtEyebrow03Lf Quat
+    - JtEyebrow03Lf XPos
+    - JtEyebrow03Lf YPos
+    - JtEyebrow03Lf ZPos
+    - JtEyebrow04Lf Quat
+    - JtEyebrow04Lf XPos
+    - JtEyebrow04Lf YPos
+    - JtEyebrow04Lf ZPos
+    - JtEyebrow01Lf Quat
+    - JtEyebrow01Lf XPos
+    - JtEyebrow01Lf YPos
+    - JtEyebrow01Lf ZPos
+    - JtEyeLf Quat
+    - JtEyeLf XPos
+    - JtEyeLf YPos
+    - JtEyeLf ZPos
+    - JtEarLf Quat
+    - JtEarLf XPos
+    - JtEarLf YPos
+    - JtEarLf ZPos
+    - JtEarRt Quat
+    - JtEarRt XPos
+    - JtEarRt YPos
+    - JtEarRt ZPos
+    - JtUpperNoseRt Quat
+    - JtUpperNoseRt XPos
+    - JtUpperNoseRt YPos
+    - JtUpperNoseRt ZPos
+    - JtLowerNoseRt Quat
+    - JtLowerNoseRt XPos
+    - JtLowerNoseRt YPos
+    - JtLowerNoseRt ZPos
+    - JtEyelidUpperRt Quat
+    - JtEyelidUpperRt XPos
+    - JtEyelidUpperRt YPos
+    - JtEyelidUpperRt ZPos
+    - JtEyelidUpperLf Quat
+    - JtEyelidUpperLf XPos
+    - JtEyelidUpperLf YPos
+    - JtEyelidUpperLf ZPos
+    - JtEyelidLowerRt Quat
+    - JtEyelidLowerRt XPos
+    - JtEyelidLowerRt YPos
+    - JtEyelidLowerRt ZPos
+    - JtEyeRt Quat
+    - JtEyeRt XPos
+    - JtEyeRt YPos
+    - JtEyeRt ZPos
+    - JtUpperNoseLf Quat
+    - JtUpperNoseLf XPos
+    - JtUpperNoseLf YPos
+    - JtUpperNoseLf ZPos
+    - JtLowerNoseLf Quat
+    - JtLowerNoseLf XPos
+    - JtLowerNoseLf YPos
+    - JtLowerNoseLf ZPos
+    - JtClavicleRt Quat
+    - JtClavicleRt XPos
+    - JtClavicleRt YPos
+    - JtClavicleRt ZPos
+    - JtShoulderRt Quat
+    - JtShoulderRt XPos
+    - JtShoulderRt YPos
+    - JtShoulderRt ZPos
+    - JtUpperArmTwistBRt Quat
+    - JtUpperArmTwistBRt XPos
+    - JtUpperArmTwistBRt YPos
+    - JtUpperArmTwistBRt ZPos
+    - JtElbowRt Quat
+    - JtElbowRt XPos
+    - JtElbowRt YPos
+    - JtElbowRt ZPos
+    - JtForearmTwistBRt Quat
+    - JtForearmTwistBRt XPos
+    - JtForearmTwistBRt YPos
+    - JtForearmTwistBRt ZPos
+    - JtWristRt Quat
+    - JtWristRt XPos
+    - JtWristRt YPos
+    - JtWristRt ZPos
+    - JtThumbARt Quat
+    - JtThumbARt XPos
+    - JtThumbARt YPos
+    - JtThumbARt ZPos
+    - JtThumbBRt Quat
+    - JtThumbBRt XPos
+    - JtThumbBRt YPos
+    - JtThumbBRt ZPos
+    - JtThumbCRt Quat
+    - JtThumbCRt XPos
+    - JtThumbCRt YPos
+    - JtThumbCRt ZPos
+    - JtLittleARt Quat
+    - JtLittleARt XPos
+    - JtLittleARt YPos
+    - JtLittleARt ZPos
+    - JtLittleBRt Quat
+    - JtLittleBRt XPos
+    - JtLittleBRt YPos
+    - JtLittleBRt ZPos
+    - JtLittleCRt Quat
+    - JtLittleCRt XPos
+    - JtLittleCRt YPos
+    - JtLittleCRt ZPos
+    - JtIndexARt Quat
+    - JtIndexARt XPos
+    - JtIndexARt YPos
+    - JtIndexARt ZPos
+    - JtIndexBRt Quat
+    - JtIndexBRt XPos
+    - JtIndexBRt YPos
+    - JtIndexBRt ZPos
+    - JtIndexCRt Quat
+    - JtIndexCRt XPos
+    - JtIndexCRt YPos
+    - JtIndexCRt ZPos
+    - JtMiddleARt Quat
+    - JtMiddleARt XPos
+    - JtMiddleARt YPos
+    - JtMiddleARt ZPos
+    - JtMiddleBRt Quat
+    - JtMiddleBRt XPos
+    - JtMiddleBRt YPos
+    - JtMiddleBRt ZPos
+    - JtMiddleCRt Quat
+    - JtMiddleCRt XPos
+    - JtMiddleCRt YPos
+    - JtMiddleCRt ZPos
+    - JtRingARt Quat
+    - JtRingARt XPos
+    - JtRingARt YPos
+    - JtRingARt ZPos
+    - JtRingBRt Quat
+    - JtRingBRt XPos
+    - JtRingBRt YPos
+    - JtRingBRt ZPos
+    - JtRingCRt Quat
+    - JtRingCRt XPos
+    - JtRingCRt YPos
+    - JtRingCRt ZPos
+    - JtForearmTwistARt Quat
+    - JtForearmTwistARt XPos
+    - JtForearmTwistARt YPos
+    - JtForearmTwistARt ZPos
+    - JtUpperArmTwistARt Quat
+    - JtUpperArmTwistARt XPos
+    - JtUpperArmTwistARt YPos
+    - JtUpperArmTwistARt ZPos
+    m_NumFrames: 65
+    m_SyncPoints:
+    - m_Name: start
+      m_Time: 0
+    - m_Name: stop
+      m_Time: 1.9666667
+  m_MotionFinishedLoadingReceiver: {fileID: 0}
+  m_MotionFinishedLoadingCallback: 
+  m_LogLoadingTime: 0
+  m_FrameData: {fileID: 4900000, guid: 6ef2ea65b1640964d9b046fe7fdb1c93, type: 3}
+  m_SaveAsSkm: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

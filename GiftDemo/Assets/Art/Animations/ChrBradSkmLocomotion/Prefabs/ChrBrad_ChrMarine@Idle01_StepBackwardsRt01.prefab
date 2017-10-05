@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ChrBrad_ChrMarine@Idle01_StepBackwardsRt01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b50688e7983bec45a8f65c2481b3f50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MotionData:
+    m_Channels:
+    - base XPos
+    - base YPos
+    - base ZPos
+    - base Quat
+    - r_hip Quat
+    - r_knee Quat
+    - r_ankle Quat
+    - r_forefoot Quat
+    - r_toe Quat
+    - l_hip Quat
+    - l_knee Quat
+    - l_ankle Quat
+    - l_forefoot Quat
+    - l_toe Quat
+    - spine1 Quat
+    - spine2 Quat
+    - spine3 Quat
+    - spine4 Quat
+    - spine5 Quat
+    - skullbase Quat
+    - JtCheekLowerRt XPos
+    - JtCheekLowerRt YPos
+    - JtCheekLowerRt ZPos
+    - JtCheekLowerRt Quat
+    - JtCheekUpperRt XPos
+    - JtCheekUpperRt YPos
+    - JtCheekUpperRt ZPos
+    - JtCheekUpperRt Quat
+    - JtLipCornerLf XPos
+    - JtLipCornerLf YPos
+    - JtLipCornerLf ZPos
+    - JtLipCornerLf Quat
+    - JtCheekLowerLf XPos
+    - JtCheekLowerLf YPos
+    - JtCheekLowerLf ZPos
+    - JtCheekLowerLf Quat
+    - JtLipUpperMid XPos
+    - JtLipUpperMid YPos
+    - JtLipUpperMid ZPos
+    - JtLipUpperMid Quat
+    - JtLipUpperRt XPos
+    - JtLipUpperRt YPos
+    - JtLipUpperRt ZPos
+    - JtLipUpperRt Quat
+    - JtCheekUpperLf XPos
+    - JtCheekUpperLf YPos
+    - JtCheekUpperLf ZPos
+    - JtCheekUpperLf Quat
+    - JtLipUpperLf XPos
+    - JtLipUpperLf YPos
+    - JtLipUpperLf ZPos
+    - JtLipUpperLf Quat
+    - JtJaw Quat
+    - JtLipLowerMid XPos
+    - JtLipLowerMid YPos
+    - JtLipLowerMid ZPos
+    - JtLipLowerMid Quat
+    - JtLipLowerRt XPos
+    - JtLipLowerRt YPos
+    - JtLipLowerRt ZPos
+    - JtLipLowerRt Quat
+    - JtLipLowerLf XPos
+    - JtLipLowerLf YPos
+    - JtLipLowerLf ZPos
+    - JtLipLowerLf Quat
+    - JtTongueA XPos
+    - JtTongueA YPos
+    - JtTongueA ZPos
+    - JtTongueA Quat
+    - JtTongueB XPos
+    - JtTongueB YPos
+    - JtTongueB ZPos
+    - JtTongueB Quat
+    - JtTongueC XPos
+    - JtTongueC YPos
+    - JtTongueC ZPos
+    - JtTongueC Quat
+    - JtLipCornerRt XPos
+    - JtLipCornerRt YPos
+    - JtLipCornerRt ZPos
+    - JtLipCornerRt Quat
+    - JtEyebrow04Rt XPos
+    - JtEyebrow04Rt YPos
+    - JtEyebrow04Rt ZPos
+    - JtEyebrow04Rt Quat
+    - JtEyebrow02Rt XPos
+    - JtEyebrow02Rt YPos
+    - JtEyebrow02Rt ZPos
+    - JtEyebrow02Rt Quat
+    - JtEyebrow01Rt XPos
+    - JtEyebrow01Rt YPos
+    - JtEyebrow01Rt ZPos
+    - JtEyebrow01Rt Quat
+    - JtEyebrow03Rt XPos
+    - JtEyebrow03Rt YPos
+    - JtEyebrow03Rt ZPos
+    - JtEyebrow03Rt Quat
+    - lower_eyelid_left XPos
+    - lower_eyelid_left YPos
+    - lower_eyelid_left ZPos
+    - lower_eyelid_left Quat
+    - JtEyebrow04Lf XPos
+    - JtEyebrow04Lf YPos
+    - JtEyebrow04Lf ZPos
+    - JtEyebrow04Lf Quat
+    - JtEyebrow01Lf XPos
+    - JtEyebrow01Lf YPos
+    - JtEyebrow01Lf ZPos
+    - JtEyebrow01Lf Quat
+    - JtEyebrow02Lf XPos
+    - JtEyebrow02Lf YPos
+    - JtEyebrow02Lf ZPos
+    - JtEyebrow02Lf Quat
+    - JtEyebrow03Lf XPos
+    - JtEyebrow03Lf YPos
+    - JtEyebrow03Lf ZPos
+    - JtEyebrow03Lf Quat
+    - lower_eyelid_right XPos
+    - lower_eyelid_right YPos
+    - lower_eyelid_right ZPos
+    - lower_eyelid_right Quat
+    - eyeball_right Quat
+    - JtUpperNoseLf XPos
+    - JtUpperNoseLf YPos
+    - JtUpperNoseLf ZPos
+    - JtUpperNoseLf Quat
+    - JtLowerNoseLf XPos
+    - JtLowerNoseLf YPos
+    - JtLowerNoseLf ZPos
+    - JtLowerNoseLf Quat
+    - upper_eyelid_left XPos
+    - upper_eyelid_left YPos
+    - upper_eyelid_left ZPos
+    - upper_eyelid_left Quat
+    - JtUpperNoseRt XPos
+    - JtUpperNoseRt YPos
+    - JtUpperNoseRt ZPos
+    - JtUpperNoseRt Quat
+    - JtLowerNoseRt XPos
+    - JtLowerNoseRt YPos
+    - JtLowerNoseRt ZPos
+    - JtLowerNoseRt Quat
+    - upper_eyelid_right XPos
+    - upper_eyelid_right YPos
+    - upper_eyelid_right ZPos
+    - upper_eyelid_right Quat
+    - JtEarLf XPos
+    - JtEarLf YPos
+    - JtEarLf ZPos
+    - JtEarLf Quat
+    - JtEarRt XPos
+    - JtEarRt YPos
+    - JtEarRt ZPos
+    - JtEarRt Quat
+    - eyeball_left Quat
+    - r_sternoclavicular Quat
+    - r_shoulder Quat
+    - r_upperarm2 Quat
+    - r_elbow Quat
+    - r_forearm Quat
+    - r_wrist Quat
+    - r_thumb1 Quat
+    - r_thumb2 Quat
+    - r_thumb3 Quat
+    - r_ring1 Quat
+    - r_ring2 Quat
+    - r_ring3 Quat
+    - r_middle1 Quat
+    - r_middle2 Quat
+    - r_middle3 Quat
+    - r_pinky1 Quat
+    - r_pinky2 Quat
+    - r_pinky3 Quat
+    - r_index1 Quat
+    - r_index2 Quat
+    - r_index3 Quat
+    - r_forearm1 Quat
+    - r_upperarm1 Quat
+    - l_sternoclavicular Quat
+    - l_shoulder Quat
+    - l_upperarm2 Quat
+    - l_elbow Quat
+    - l_forearm1 Quat
+    - l_forearm Quat
+    - l_wrist Quat
+    - l_thumb1 Quat
+    - l_thumb2 Quat
+    - l_thumb3 Quat
+    - l_pinky1 Quat
+    - l_pinky2 Quat
+    - l_pinky3 Quat
+    - l_index1 Quat
+    - l_index2 Quat
+    - l_index3 Quat
+    - l_middle1 Quat
+    - l_middle2 Quat
+    - l_middle3 Quat
+    - l_ring1 Quat
+    - l_ring2 Quat
+    - l_ring3 Quat
+    - l_upperarm1 Quat
+    m_NumFrames: 41
+    m_SyncPoints:
+    - m_Name: strokeStartTime
+      m_Time: .333332986
+    - m_Name: emphasisTime
+      m_Time: .699999988
+    - m_Name: strokeTime
+      m_Time: .966666996
+    - m_Name: relaxTime
+      m_Time: 1.16666996
+    - m_Name: start
+      m_Time: 0
+    - m_Name: stop
+      m_Time: 1.33333004
+  m_MotionFinishedLoadingReceiver: {fileID: 0}
+  m_MotionFinishedLoadingCallback: 
+  m_LogLoadingTime: 0
+  m_FrameData: {fileID: 4900000, guid: 686758f19ba65334b8b5b56c5b400328, type: 3}
+  m_SaveAsSkm: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: 961288a46389a8f4d8206d5c9051f522
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: MorphTargets
+    100002: EyesTeethTongue
+    100004: EyelashRtTop
+    100006: EyelashRtBottom
+    100008: EyelashLfTop
+    100010: EyelashLfBottom
+    100012: Body1
+    100014: MshRef
+    100016: SkinnedMesh
+    100018: Mesh
+    100020: JtIndexDRt
+    100022: JtIndexCRt
+    100024: JtIndexBRt
+    100026: JtIndexARt
+    100028: JtLittleDRt
+    100030: JtLittleCRt
+    100032: JtLittleBRt
+    100034: JtLittleARt
+    100036: JtMiddleDRt
+    100038: JtMiddleCRt
+    100040: JtMiddleBRt
+    100042: JtMiddleARt
+    100044: JtRingDRt
+    100046: JtRingCRt
+    100048: JtRingBRt
+    100050: JtRingARt
+    100052: JtThumbDRt
+    100054: JtThumbCRt
+    100056: JtThumbBRt
+    100058: JtThumbARt
+    100060: JtWristRt
+    100062: JtElbowRt
+    100064: JtShoulderRt
+    100066: JtClavicleRt
+    100068: JtEyeLf
+    100070: JtLowerNoseLf
+    100072: JtUpperNoseLf
+    100074: JtEyeRt
+    100076: JtEyelidLowerRt
+    100078: JtEyelidUpperLf
+    100080: JtEarRt
+    100082: JtEarLf
+    100084: JtEyelidUpperRt
+    100086: JtLowerNoseRt
+    100088: JtUpperNoseRt
+    100090: JtEyebrow01Lf
+    100092: JtEyebrow04Lf
+    100094: JtEyebrow03Lf
+    100096: JtEyebrow02Lf
+    100098: JtBrowParentLf
+    100100: JtEyelidLowerLf
+    100102: JtEyebrow03Rt
+    100104: JtEyebrow02Rt
+    100106: JtEyebrow04Rt
+    100108: JtEyebrow01Rt
+    100110: JtBrowParentRt
+    100112: JtLipCornerRt
+    100114: JtCheekLowerLf
+    100116: JtLipCornerLf
+    100118: JtCheekUpperRt
+    100120: JtLipLowerLf
+    100122: JtLipLowerMid
+    100124: JtLipLowerRt
+    100126: JtJawFront
+    100128: JtJawBack
+    100130: JtTongueC
+    100132: JtTongueB
+    100134: JtTongueA
+    100136: JtJaw
+    100138: JtLipUpperLf
+    100140: JtCheekUpperLf
+    100142: JtLipUpperRt
+    100144: JtLipUpperMid
+    100146: JtCheekLowerRt
+    100148: JtSkullB
+    100150: JtSkullA
+    100152: JtNeckB
+    100154: JtNeckA
+    100156: JtMiddleDLf
+    100158: JtMiddleCLf
+    100160: JtMiddleBLf
+    100162: JtMiddleALf
+    100164: JtIndexDLf
+    100166: JtIndexCLf
+    100168: JtIndexBLf
+    100170: JtIndexALf
+    100172: JtRingDLf
+    100174: JtRingCLf
+    100176: JtRingBLf
+    100178: JtRingALf
+    100180: JtThumbDLf
+    100182: JtThumbCLf
+    100184: JtThumbBLf
+    100186: JtThumbALf
+    100188: JtLittleDLf
+    100190: JtLittleCLf
+    100192: JtLittleBLf
+    100194: JtLittleALf
+    100196: JtWristLf
+    100198: JtElbowLf
+    100200: JtShoulderLf
+    100202: JtClavicleLf
+    100204: JtSpineC
+    100206: JtSpineB
+    100208: JtSpineA
+    100210: JtHeelLf
+    100212: JtToeLf
+    100214: JtBallLf
+    100216: JtAnkleLf
+    100218: JtKneeLf
+    100220: JtHipLf
+    100222: JtHeelRt
+    100224: JtToeRt
+    100226: JtBallRt
+    100228: JtAnkleRt
+    100230: JtKneeRt
+    100232: JtHipRt
+    100234: JtPelvis
+    100236: JtRoot
+    100238: CharacterRoot
+    100240: //RootNode
+    100242: IctUnitySettings
+    100244: SknRig:Msh:polySurface36 1
+    100246: SknRig:Msh:polySurface35 1
+    100248: SknRig:Msh:polySurface34 1
+    100250: SknRig:Msh:polySurface33 1
+    100252: SknRig:Msh:polySurface32 1
+    100254: SknRig:Msh:polySurface31 1
+    100256: SknRig:Msh:polySurface30 1
+    100258: SknRig:Msh:polySurface29 1
+    100260: SknRig:Msh:polySurface28 1
+    100262: SknRig:Msh:polySurface27 1
+    100264: SknRig:Msh:polySurface26 1
+    100266: SknRig:Msh:polySurface25 1
+    100268: SknRig:Msh:polySurface24 1
+    100270: SknRig:Msh:polySurface23 1
+    100272: SknRig:Msh:polySurface22 1
+    100274: SknRig:Msh:polySurface21 1
+    100276: SknRig:Msh:polySurface20 1
+    100278: SknRig:Msh:polySurface19 1
+    100280: SknRig:Msh:polySurface18 1
+    100282: SknRig:Msh:polySurface17 1
+    100284: SknRig:Msh:polySurface16 1
+    100286: SknRig:Msh:polySurface15 1
+    100288: SknRig:Msh:polySurface14 1
+    100290: SknRig:Msh:polySurface13 1
+    100292: SknRig:Msh:polySurface12 1
+    100294: SknRig:Msh:polySurface11 1
+    100296: SknRig:Msh:polySurface10 1
+    100298: SknRig:Msh:polySurface9 1
+    100300: SknRig:Msh:polySurface8 1
+    100302: SknRig:Msh:polySurface7 1
+    100304: SknRig:Msh:polySurface6 1
+    100306: SknRig:Msh:polySurface5 1
+    100308: SknRig:Msh:polySurface4 1
+    100310: SknRig:Msh:polySurface3 1
+    100312: SknRig:Msh:polySurface2 1
+    100314: ChrFemaleWriter_Hair1
+    100316: SknRig:Msh:polySurface36
+    100318: SknRig:Msh:polySurface35
+    100320: SknRig:Msh:polySurface34
+    100322: SknRig:Msh:polySurface33
+    100324: SknRig:Msh:polySurface32
+    100326: SknRig:Msh:polySurface31
+    100328: SknRig:Msh:polySurface30
+    100330: SknRig:Msh:polySurface29
+    100332: SknRig:Msh:polySurface28
+    100334: SknRig:Msh:polySurface27
+    100336: SknRig:Msh:polySurface26
+    100338: SknRig:Msh:polySurface25
+    100340: SknRig:Msh:polySurface24
+    100342: SknRig:Msh:polySurface23
+    100344: SknRig:Msh:polySurface22
+    100346: SknRig:Msh:polySurface21
+    100348: SknRig:Msh:polySurface20
+    100350: SknRig:Msh:polySurface19
+    100352: SknRig:Msh:polySurface18
+    100354: SknRig:Msh:polySurface17
+    100356: SknRig:Msh:polySurface16
+    100358: SknRig:Msh:polySurface15
+    100360: SknRig:Msh:polySurface14
+    100362: SknRig:Msh:polySurface13
+    100364: SknRig:Msh:polySurface12
+    100366: SknRig:Msh:polySurface11
+    100368: SknRig:Msh:polySurface10
+    100370: SknRig:Msh:polySurface9
+    100372: SknRig:Msh:polySurface8
+    100374: SknRig:Msh:polySurface7
+    100376: SknRig:Msh:polySurface6
+    100378: SknRig:Msh:polySurface5
+    100380: SknRig:Msh:polySurface4
+    100382: SknRig:Msh:polySurface3
+    100384: SknRig:Msh:polySurface2
+    100386: ChrFemaleWriter_Hair
+    100388: JtUpperArmTwistARt
+    100390: JtForearmTwistARt
+    100392: JtForearmTwistBRt
+    100394: JtUpperArmTwistBRt
+    100396: JtUpperFaceParent
+    100398: JtLowerFaceParent
+    100400: JtForearmTwistBLf
+    100402: JtForearmTwistALf
+    100404: JtUpperArmTwistBLf
+    100406: JtUpperArmTwistALf
+    100408: polySurface10
+    100410: polySurface11
+    100412: polySurface12
+    100414: polySurface13
+    100416: polySurface14
+    100418: polySurface15
+    100420: polySurface16
+    100422: polySurface17
+    100424: polySurface18
+    100426: polySurface19
+    100428: polySurface2
+    100430: polySurface20
+    100432: polySurface21
+    100434: polySurface22
+    100436: polySurface23
+    100438: polySurface24
+    100440: polySurface25
+    100442: polySurface26
+    100444: polySurface27
+    100446: polySurface28
+    100448: polySurface29
+    100450: polySurface3
+    100452: polySurface30
+    100454: polySurface31
+    100456: polySurface32
+    100458: polySurface33
+    100460: polySurface34
+    100462: polySurface35
+    100464: polySurface36
+    100466: polySurface4
+    100468: polySurface5
+    100470: polySurface6
+    100472: polySurface7
+    100474: polySurface8
+    100476: polySurface9
+    100478: EyeballLf
+    100480: EyeballRt
+    100482: TeethLower
+    100484: TeethUpper
+    100486: Tongue
+    100488: Body
+    100490: EyeLf
+    100492: EyeRt
+    100494: EyeShadowLf
+    100496: EyeShadowRt
+    100498: EyeShellLf
+    100500: EyeShellRt
+    100502: _IctSettings_
+    100504: ChrDefSettings
+    100506: PndMorphTargetCollectorNode
+    400000: MorphTargets
+    400002: EyesTeethTongue
+    400004: EyelashRtTop
+    400006: EyelashRtBottom
+    400008: EyelashLfTop
+    400010: EyelashLfBottom
+    400012: Body1
+    400014: MshRef
+    400016: SkinnedMesh
+    400018: Mesh
+    400020: JtIndexDRt
+    400022: JtIndexCRt
+    400024: JtIndexBRt
+    400026: JtIndexARt
+    400028: JtLittleDRt
+    400030: JtLittleCRt
+    400032: JtLittleBRt
+    400034: JtLittleARt
+    400036: JtMiddleDRt
+    400038: JtMiddleCRt
+    400040: JtMiddleBRt
+    400042: JtMiddleARt
+    400044: JtRingDRt
+    400046: JtRingCRt
+    400048: JtRingBRt
+    400050: JtRingARt
+    400052: JtThumbDRt
+    400054: JtThumbCRt
+    400056: JtThumbBRt
+    400058: JtThumbARt
+    400060: JtWristRt
+    400062: JtElbowRt
+    400064: JtShoulderRt
+    400066: JtClavicleRt
+    400068: JtEyeLf
+    400070: JtLowerNoseLf
+    400072: JtUpperNoseLf
+    400074: JtEyeRt
+    400076: JtEyelidLowerRt
+    400078: JtEyelidUpperLf
+    400080: JtEarRt
+    400082: JtEarLf
+    400084: JtEyelidUpperRt
+    400086: JtLowerNoseRt
+    400088: JtUpperNoseRt
+    400090: JtEyebrow01Lf
+    400092: JtEyebrow04Lf
+    400094: JtEyebrow03Lf
+    400096: JtEyebrow02Lf
+    400098: JtBrowParentLf
+    400100: JtEyelidLowerLf
+    400102: JtEyebrow03Rt
+    400104: JtEyebrow02Rt
+    400106: JtEyebrow04Rt
+    400108: JtEyebrow01Rt
+    400110: JtBrowParentRt
+    400112: JtLipCornerRt
+    400114: JtCheekLowerLf
+    400116: JtLipCornerLf
+    400118: JtCheekUpperRt
+    400120: JtLipLowerLf
+    400122: JtLipLowerMid
+    400124: JtLipLowerRt
+    400126: JtJawFront
+    400128: JtJawBack
+    400130: JtTongueC
+    400132: JtTongueB
+    400134: JtTongueA
+    400136: JtJaw
+    400138: JtLipUpperLf
+    400140: JtCheekUpperLf
+    400142: JtLipUpperRt
+    400144: JtLipUpperMid
+    400146: JtCheekLowerRt
+    400148: JtSkullB
+    400150: JtSkullA
+    400152: JtNeckB
+    400154: JtNeckA
+    400156: JtMiddleDLf
+    400158: JtMiddleCLf
+    400160: JtMiddleBLf
+    400162: JtMiddleALf
+    400164: JtIndexDLf
+    400166: JtIndexCLf
+    400168: JtIndexBLf
+    400170: JtIndexALf
+    400172: JtRingDLf
+    400174: JtRingCLf
+    400176: JtRingBLf
+    400178: JtRingALf
+    400180: JtThumbDLf
+    400182: JtThumbCLf
+    400184: JtThumbBLf
+    400186: JtThumbALf
+    400188: JtLittleDLf
+    400190: JtLittleCLf
+    400192: JtLittleBLf
+    400194: JtLittleALf
+    400196: JtWristLf
+    400198: JtElbowLf
+    400200: JtShoulderLf
+    400202: JtClavicleLf
+    400204: JtSpineC
+    400206: JtSpineB
+    400208: JtSpineA
+    400210: JtHeelLf
+    400212: JtToeLf
+    400214: JtBallLf
+    400216: JtAnkleLf
+    400218: JtKneeLf
+    400220: JtHipLf
+    400222: JtHeelRt
+    400224: JtToeRt
+    400226: JtBallRt
+    400228: JtAnkleRt
+    400230: JtKneeRt
+    400232: JtHipRt
+    400234: JtPelvis
+    400236: JtRoot
+    400238: CharacterRoot
+    400240: //RootNode
+    400242: IctUnitySettings
+    400244: SknRig:Msh:polySurface36 1
+    400246: SknRig:Msh:polySurface35 1
+    400248: SknRig:Msh:polySurface34 1
+    400250: SknRig:Msh:polySurface33 1
+    400252: SknRig:Msh:polySurface32 1
+    400254: SknRig:Msh:polySurface31 1
+    400256: SknRig:Msh:polySurface30 1
+    400258: SknRig:Msh:polySurface29 1
+    400260: SknRig:Msh:polySurface28 1
+    400262: SknRig:Msh:polySurface27 1
+    400264: SknRig:Msh:polySurface26 1
+    400266: SknRig:Msh:polySurface25 1
+    400268: SknRig:Msh:polySurface24 1
+    400270: SknRig:Msh:polySurface23 1
+    400272: SknRig:Msh:polySurface22 1
+    400274: SknRig:Msh:polySurface21 1
+    400276: SknRig:Msh:polySurface20 1
+    400278: SknRig:Msh:polySurface19 1
+    400280: SknRig:Msh:polySurface18 1
+    400282: SknRig:Msh:polySurface17 1
+    400284: SknRig:Msh:polySurface16 1
+    400286: SknRig:Msh:polySurface15 1
+    400288: SknRig:Msh:polySurface14 1
+    400290: SknRig:Msh:polySurface13 1
+    400292: SknRig:Msh:polySurface12 1
+    400294: SknRig:Msh:polySurface11 1
+    400296: SknRig:Msh:polySurface10 1
+    400298: SknRig:Msh:polySurface9 1
+    400300: SknRig:Msh:polySurface8 1
+    400302: SknRig:Msh:polySurface7 1
+    400304: SknRig:Msh:polySurface6 1
+    400306: SknRig:Msh:polySurface5 1
+    400308: SknRig:Msh:polySurface4 1
+    400310: SknRig:Msh:polySurface3 1
+    400312: SknRig:Msh:polySurface2 1
+    400314: ChrFemaleWriter_Hair1
+    400316: SknRig:Msh:polySurface36
+    400318: SknRig:Msh:polySurface35
+    400320: SknRig:Msh:polySurface34
+    400322: SknRig:Msh:polySurface33
+    400324: SknRig:Msh:polySurface32
+    400326: SknRig:Msh:polySurface31
+    400328: SknRig:Msh:polySurface30
+    400330: SknRig:Msh:polySurface29
+    400332: SknRig:Msh:polySurface28
+    400334: SknRig:Msh:polySurface27
+    400336: SknRig:Msh:polySurface26
+    400338: SknRig:Msh:polySurface25
+    400340: SknRig:Msh:polySurface24
+    400342: SknRig:Msh:polySurface23
+    400344: SknRig:Msh:polySurface22
+    400346: SknRig:Msh:polySurface21
+    400348: SknRig:Msh:polySurface20
+    400350: SknRig:Msh:polySurface19
+    400352: SknRig:Msh:polySurface18
+    400354: SknRig:Msh:polySurface17
+    400356: SknRig:Msh:polySurface16
+    400358: SknRig:Msh:polySurface15
+    400360: SknRig:Msh:polySurface14
+    400362: SknRig:Msh:polySurface13
+    400364: SknRig:Msh:polySurface12
+    400366: SknRig:Msh:polySurface11
+    400368: SknRig:Msh:polySurface10
+    400370: SknRig:Msh:polySurface9
+    400372: SknRig:Msh:polySurface8
+    400374: SknRig:Msh:polySurface7
+    400376: SknRig:Msh:polySurface6
+    400378: SknRig:Msh:polySurface5
+    400380: SknRig:Msh:polySurface4
+    400382: SknRig:Msh:polySurface3
+    400384: SknRig:Msh:polySurface2
+    400386: ChrFemaleWriter_Hair
+    400388: JtUpperArmTwistARt
+    400390: JtForearmTwistARt
+    400392: JtForearmTwistBRt
+    400394: JtUpperArmTwistBRt
+    400396: JtUpperFaceParent
+    400398: JtLowerFaceParent
+    400400: JtForearmTwistBLf
+    400402: JtForearmTwistALf
+    400404: JtUpperArmTwistBLf
+    400406: JtUpperArmTwistALf
+    400408: polySurface10
+    400410: polySurface11
+    400412: polySurface12
+    400414: polySurface13
+    400416: polySurface14
+    400418: polySurface15
+    400420: polySurface16
+    400422: polySurface17
+    400424: polySurface18
+    400426: polySurface19
+    400428: polySurface2
+    400430: polySurface20
+    400432: polySurface21
+    400434: polySurface22
+    400436: polySurface23
+    400438: polySurface24
+    400440: polySurface25
+    400442: polySurface26
+    400444: polySurface27
+    400446: polySurface28
+    400448: polySurface29
+    400450: polySurface3
+    400452: polySurface30
+    400454: polySurface31
+    400456: polySurface32
+    400458: polySurface33
+    400460: polySurface34
+    400462: polySurface35
+    400464: polySurface36
+    400466: polySurface4
+    400468: polySurface5
+    400470: polySurface6
+    400472: polySurface7
+    400474: polySurface8
+    400476: polySurface9
+    400478: EyeballLf
+    400480: EyeballRt
+    400482: TeethLower
+    400484: TeethUpper
+    400486: Tongue
+    400488: Body
+    400490: EyeLf
+    400492: EyeRt
+    400494: EyeShadowLf
+    400496: EyeShadowRt
+    400498: EyeShellLf
+    400500: EyeShellRt
+    400502: _IctSettings_
+    400504: ChrDefSettings
+    400506: PndMorphTargetCollectorNode
+    4300000: Body1
+    4300002: EyelashLfBottom
+    4300004: EyelashLfTop
+    4300006: EyelashRtBottom
+    4300008: EyelashRtTop
+    4300010: EyesTeethTongue
+    4300012: ChrFemaleWriter_Hair
+    4300014: SknRig:Msh:polySurface2
+    4300016: SknRig:Msh:polySurface3
+    4300018: SknRig:Msh:polySurface4
+    4300020: SknRig:Msh:polySurface5
+    4300022: SknRig:Msh:polySurface6
+    4300024: SknRig:Msh:polySurface7
+    4300026: SknRig:Msh:polySurface8
+    4300028: SknRig:Msh:polySurface9
+    4300030: SknRig:Msh:polySurface10
+    4300032: SknRig:Msh:polySurface11
+    4300034: SknRig:Msh:polySurface12
+    4300036: SknRig:Msh:polySurface13
+    4300038: SknRig:Msh:polySurface14
+    4300040: SknRig:Msh:polySurface15
+    4300042: SknRig:Msh:polySurface16
+    4300044: SknRig:Msh:polySurface17
+    4300046: SknRig:Msh:polySurface18
+    4300048: SknRig:Msh:polySurface19
+    4300050: SknRig:Msh:polySurface20
+    4300052: SknRig:Msh:polySurface21
+    4300054: SknRig:Msh:polySurface22
+    4300056: SknRig:Msh:polySurface23
+    4300058: SknRig:Msh:polySurface24
+    4300060: SknRig:Msh:polySurface25
+    4300062: SknRig:Msh:polySurface26
+    4300064: SknRig:Msh:polySurface27
+    4300066: SknRig:Msh:polySurface28
+    4300068: SknRig:Msh:polySurface29
+    4300070: SknRig:Msh:polySurface30
+    4300072: SknRig:Msh:polySurface31
+    4300074: SknRig:Msh:polySurface32
+    4300076: SknRig:Msh:polySurface33
+    4300078: SknRig:Msh:polySurface34
+    4300080: SknRig:Msh:polySurface35
+    4300082: SknRig:Msh:polySurface36
+    4300084: ChrFemaleWriter_Hair1
+    4300086: SknRig:Msh:polySurface2
+    4300088: SknRig:Msh:polySurface3
+    4300090: SknRig:Msh:polySurface4
+    4300092: SknRig:Msh:polySurface5
+    4300094: SknRig:Msh:polySurface6
+    4300096: SknRig:Msh:polySurface7
+    4300098: SknRig:Msh:polySurface8
+    4300100: SknRig:Msh:polySurface9
+    4300102: SknRig:Msh:polySurface10
+    4300104: SknRig:Msh:polySurface11
+    4300106: SknRig:Msh:polySurface12
+    4300108: SknRig:Msh:polySurface13
+    4300110: SknRig:Msh:polySurface14
+    4300112: SknRig:Msh:polySurface15
+    4300114: SknRig:Msh:polySurface16
+    4300116: SknRig:Msh:polySurface17
+    4300118: SknRig:Msh:polySurface18
+    4300120: SknRig:Msh:polySurface19
+    4300122: SknRig:Msh:polySurface20
+    4300124: SknRig:Msh:polySurface21
+    4300126: SknRig:Msh:polySurface22
+    4300128: SknRig:Msh:polySurface23
+    4300130: SknRig:Msh:polySurface24
+    4300132: SknRig:Msh:polySurface25
+    4300134: SknRig:Msh:polySurface26
+    4300136: SknRig:Msh:polySurface27
+    4300138: SknRig:Msh:polySurface28
+    4300140: SknRig:Msh:polySurface29
+    4300142: SknRig:Msh:polySurface30
+    4300144: SknRig:Msh:polySurface31
+    4300146: SknRig:Msh:polySurface32
+    4300148: SknRig:Msh:polySurface33
+    4300150: SknRig:Msh:polySurface34
+    4300152: SknRig:Msh:polySurface35
+    4300154: SknRig:Msh:polySurface36
+    4300156: polySurface2
+    4300158: polySurface3
+    4300160: polySurface4
+    4300162: polySurface5
+    4300164: polySurface6
+    4300166: polySurface7
+    4300168: polySurface8
+    4300170: polySurface9
+    4300172: polySurface10
+    4300174: polySurface11
+    4300176: polySurface12
+    4300178: polySurface13
+    4300180: polySurface14
+    4300182: polySurface15
+    4300184: polySurface16
+    4300186: polySurface17
+    4300188: polySurface18
+    4300190: polySurface19
+    4300192: polySurface20
+    4300194: polySurface21
+    4300196: polySurface22
+    4300198: polySurface23
+    4300200: polySurface24
+    4300202: polySurface25
+    4300204: polySurface26
+    4300206: polySurface27
+    4300208: polySurface28
+    4300210: polySurface29
+    4300212: polySurface30
+    4300214: polySurface31
+    4300216: polySurface32
+    4300218: polySurface33
+    4300220: polySurface34
+    4300222: polySurface35
+    4300224: polySurface36
+    4300226: TeethUpper
+    4300228: TeethLower
+    4300230: Tongue
+    4300232: EyeballLf
+    4300234: EyeballRt
+    4300236: EyeLf
+    4300238: EyeRt
+    4300240: EyeShellLf
+    4300242: EyeShellRt
+    4300244: EyeShadowLf
+    4300246: EyeShadowRt
+    4300248: Body
+    7400000: Take 001
+    11100000: //RootNode
+    11400000: JtAnkleLf
+    11400002: JtAnkleRt
+    11400004: JtBallLf
+    11400006: JtBallRt
+    11400008: JtCheekLowerLf
+    11400010: JtCheekLowerRt
+    11400012: JtCheekUpperLf
+    11400014: JtCheekUpperRt
+    11400016: JtClavicleLf
+    11400018: JtClavicleRt
+    11400020: JtEarLf
+    11400022: JtEarRt
+    11400024: JtElbowLf
+    11400026: JtElbowRt
+    11400028: JtEyebrow01Lf
+    11400030: JtEyebrow01Rt
+    11400032: JtEyebrow02Lf
+    11400034: JtEyebrow02Rt
+    11400036: JtEyebrow03Lf
+    11400038: JtEyebrow03Rt
+    11400040: JtEyebrow04Lf
+    11400042: JtEyebrow04Rt
+    11400044: JtEyeLf
+    11400046: JtEyelidLowerLf
+    11400048: JtEyelidLowerRt
+    11400050: JtEyelidUpperLf
+    11400052: JtEyelidUpperRt
+    11400054: JtEyeRt
+    11400056: JtForearmTwistALf
+    11400058: JtForearmTwistARt
+    11400060: JtForearmTwistBLf
+    11400062: JtForearmTwistBRt
+    11400064: JtHipLf
+    11400066: JtHipRt
+    11400068: JtIndexALf
+    11400070: JtIndexARt
+    11400072: JtIndexBLf
+    11400074: JtIndexBRt
+    11400076: JtIndexCLf
+    11400078: JtIndexCRt
+    11400080: JtJaw
+    11400082: JtKneeLf
+    11400084: JtKneeRt
+    11400086: JtLipCornerLf
+    11400088: JtLipCornerRt
+    11400090: JtLipLowerLf
+    11400092: JtLipLowerMid
+    11400094: JtLipLowerRt
+    11400096: JtLipUpperLf
+    11400098: JtLipUpperMid
+    11400100: JtLipUpperRt
+    11400102: JtLittleALf
+    11400104: JtLittleARt
+    11400106: JtLittleBLf
+    11400108: JtLittleBRt
+    11400110: JtLittleCLf
+    11400112: JtLittleCRt
+    11400114: JtLowerNoseLf
+    11400116: JtLowerNoseRt
+    11400118: JtMiddleALf
+    11400120: JtMiddleARt
+    11400122: JtMiddleBLf
+    11400124: JtMiddleBRt
+    11400126: JtMiddleCLf
+    11400128: JtMiddleCRt
+    11400130: JtNeckA
+    11400132: JtNeckB
+    11400134: JtRingALf
+    11400136: JtRingARt
+    11400138: JtRingBLf
+    11400140: JtRingBRt
+    11400142: JtRingCLf
+    11400144: JtRingCRt
+    11400146: JtRoot
+    11400148: JtShoulderLf
+    11400150: JtShoulderRt
+    11400152: JtSkullA
+    11400154: JtSpineA
+    11400156: JtSpineB
+    11400158: JtSpineC
+    11400160: JtThumbALf
+    11400162: JtThumbARt
+    11400164: JtThumbBLf
+    11400166: JtThumbBRt
+    11400168: JtThumbCLf
+    11400170: JtThumbCRt
+    11400172: JtToeLf
+    11400174: JtToeRt
+    11400176: JtTongueA
+    11400178: JtTongueB
+    11400180: JtTongueC
+    11400182: JtUpperArmTwistALf
+    11400184: JtUpperArmTwistARt
+    11400186: JtUpperArmTwistBLf
+    11400188: JtUpperArmTwistBRt
+    11400190: JtUpperNoseLf
+    11400192: JtUpperNoseRt
+    11400194: JtWristLf
+    11400196: JtWristRt
+    13700000: EyesTeethTongue
+    13700002: EyelashRtTop
+    13700004: EyelashRtBottom
+    13700006: EyelashLfTop
+    13700008: EyelashLfBottom
+    13700010: Body1
+    13700012: SknRig:Msh:polySurface36 1
+    13700014: SknRig:Msh:polySurface35 1
+    13700016: SknRig:Msh:polySurface34 1
+    13700018: SknRig:Msh:polySurface33 1
+    13700020: SknRig:Msh:polySurface32 1
+    13700022: SknRig:Msh:polySurface31 1
+    13700024: SknRig:Msh:polySurface30 1
+    13700026: SknRig:Msh:polySurface29 1
+    13700028: SknRig:Msh:polySurface28 1
+    13700030: SknRig:Msh:polySurface27 1
+    13700032: SknRig:Msh:polySurface26 1
+    13700034: SknRig:Msh:polySurface25 1
+    13700036: SknRig:Msh:polySurface24 1
+    13700038: SknRig:Msh:polySurface23 1
+    13700040: SknRig:Msh:polySurface22 1
+    13700042: SknRig:Msh:polySurface21 1
+    13700044: SknRig:Msh:polySurface20 1
+    13700046: SknRig:Msh:polySurface19 1
+    13700048: SknRig:Msh:polySurface18 1
+    13700050: SknRig:Msh:polySurface17 1
+    13700052: SknRig:Msh:polySurface16 1
+    13700054: SknRig:Msh:polySurface15 1
+    13700056: SknRig:Msh:polySurface14 1
+    13700058: SknRig:Msh:polySurface13 1
+    13700060: SknRig:Msh:polySurface12 1
+    13700062: SknRig:Msh:polySurface11 1
+    13700064: SknRig:Msh:polySurface10 1
+    13700066: SknRig:Msh:polySurface9 1
+    13700068: SknRig:Msh:polySurface8 1
+    13700070: SknRig:Msh:polySurface7 1
+    13700072: SknRig:Msh:polySurface6 1
+    13700074: SknRig:Msh:polySurface5 1
+    13700076: SknRig:Msh:polySurface4 1
+    13700078: SknRig:Msh:polySurface3 1
+    13700080: SknRig:Msh:polySurface2 1
+    13700082: ChrFemaleWriter_Hair1
+    13700084: SknRig:Msh:polySurface36
+    13700086: SknRig:Msh:polySurface35
+    13700088: SknRig:Msh:polySurface34
+    13700090: SknRig:Msh:polySurface33
+    13700092: SknRig:Msh:polySurface32
+    13700094: SknRig:Msh:polySurface31
+    13700096: SknRig:Msh:polySurface30
+    13700098: SknRig:Msh:polySurface29
+    13700100: SknRig:Msh:polySurface28
+    13700102: SknRig:Msh:polySurface27
+    13700104: SknRig:Msh:polySurface26
+    13700106: SknRig:Msh:polySurface25
+    13700108: SknRig:Msh:polySurface24
+    13700110: SknRig:Msh:polySurface23
+    13700112: SknRig:Msh:polySurface22
+    13700114: SknRig:Msh:polySurface21
+    13700116: SknRig:Msh:polySurface20
+    13700118: SknRig:Msh:polySurface19
+    13700120: SknRig:Msh:polySurface18
+    13700122: SknRig:Msh:polySurface17
+    13700124: SknRig:Msh:polySurface16
+    13700126: SknRig:Msh:polySurface15
+    13700128: SknRig:Msh:polySurface14
+    13700130: SknRig:Msh:polySurface13
+    13700132: SknRig:Msh:polySurface12
+    13700134: SknRig:Msh:polySurface11
+    13700136: SknRig:Msh:polySurface10
+    13700138: SknRig:Msh:polySurface9
+    13700140: SknRig:Msh:polySurface8
+    13700142: SknRig:Msh:polySurface7
+    13700144: SknRig:Msh:polySurface6
+    13700146: SknRig:Msh:polySurface5
+    13700148: SknRig:Msh:polySurface4
+    13700150: SknRig:Msh:polySurface3
+    13700152: SknRig:Msh:polySurface2
+    13700154: ChrFemaleWriter_Hair
+    13700156: polySurface10
+    13700158: polySurface11
+    13700160: polySurface12
+    13700162: polySurface13
+    13700164: polySurface14
+    13700166: polySurface15
+    13700168: polySurface16
+    13700170: polySurface17
+    13700172: polySurface18
+    13700174: polySurface19
+    13700176: polySurface2
+    13700178: polySurface20
+    13700180: polySurface21
+    13700182: polySurface22
+    13700184: polySurface23
+    13700186: polySurface24
+    13700188: polySurface25
+    13700190: polySurface26
+    13700192: polySurface27
+    13700194: polySurface28
+    13700196: polySurface29
+    13700198: polySurface3
+    13700200: polySurface30
+    13700202: polySurface31
+    13700204: polySurface32
+    13700206: polySurface33
+    13700208: polySurface34
+    13700210: polySurface35
+    13700212: polySurface36
+    13700214: polySurface4
+    13700216: polySurface5
+    13700218: polySurface6
+    13700220: polySurface7
+    13700222: polySurface8
+    13700224: polySurface9
+    13700226: EyeballLf
+    13700228: EyeballRt
+    13700230: TeethLower
+    13700232: TeethUpper
+    13700234: Tongue
+    13700236: Body
+    13700238: EyeLf
+    13700240: EyeRt
+    13700242: EyeShadowLf
+    13700244: EyeShadowRt
+    13700246: EyeShellLf
+    13700248: EyeShellRt
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

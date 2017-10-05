@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChrBradHairBlonde_Mat
+  m_Shader: {fileID: 4800000, guid: 125e5dc1806679344b436e451c4f3608, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b152fbb9a907a6e459051ca4e25f269e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: aaea1a0f2ad5a184faba3593572a9be6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AnisoTex
+        second:
+          m_Texture: {fileID: 2800000, guid: aaea1a0f2ad5a184faba3593572a9be6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .319999993
+      data:
+        first:
+          name: _SpecularColor
+        second: .100000001
+      data:
+        first:
+          name: _GlossSharpness
+        second: .649999976
+      data:
+        first:
+          name: _BlinnAniMix
+        second: 1
+      data:
+        first:
+          name: _AnisoOffset
+        second: -.330000013
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .99999994, g: .99999994, b: .99999994, a: 1}

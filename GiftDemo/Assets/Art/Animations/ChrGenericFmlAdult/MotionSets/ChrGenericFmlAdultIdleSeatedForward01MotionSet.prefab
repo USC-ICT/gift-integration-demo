@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &107866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 449940}
+  - 114: {fileID: 11478574}
+  - 114: {fileID: 11468660}
+  m_Layer: 0
+  m_Name: ChrGenericFmlAdultIdleSeatedForward01MotionSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &449940
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11468660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c3d1d5e2711264483609bf92fa79cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11478574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9429a677a774ce4a8dae297fea4574e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadType: 0
+  m_SecondsBeforeLoading: 0
+  m_StreamingCompletionTime: 5
+  m_MinimumFramerate: 30
+  m_fpsCounter: {fileID: 0}
+  m_ReferenceCharacter: {fileID: 11400000, guid: a5a25450a268cd7498494b747256ec05,
+    type: 2}
+  m_AllMotionsFinishedLoadingReceiver: {fileID: 0}
+  m_AllMotionsFinishedLoadingCallback: 
+  m_MotionsList:
+  - {fileID: 11402868, guid: ad6b448c50ad7d74498654ac0a39cf40, type: 2}
+  - {fileID: 11442258, guid: bd9cbf055e68d504d9a0bd6b2d5de64a, type: 2}
+  - {fileID: 11405416, guid: 25343df5805a74244a434ff5bbaba1bb, type: 2}
+  - {fileID: 11461962, guid: 6f55e55edafe6ce40badb9ca7188e791, type: 2}
+  - {fileID: 11440044, guid: 4c2f2094076bf40438aa19a88e28222d, type: 2}
+  - {fileID: 11460868, guid: 25a5568bd9a09664fa0cd6c73ce1b220, type: 2}
+  - {fileID: 11425776, guid: 79bc62f5a7eb78e4284d18ca295bd90d, type: 2}
+  - {fileID: 11403350, guid: 7367976267eb1bf4482e01f78acd9d89, type: 2}
+  - {fileID: 11472144, guid: c0c879ab6f94c5b45814c03cd58faa9a, type: 2}
+  - {fileID: 11450576, guid: 5942619f3b856d34ca133650863b40c2, type: 2}
+  - {fileID: 11474882, guid: 0dabcd823cb5a8f459ab9e2589af250a, type: 2}
+  - {fileID: 11489588, guid: acc9f077394d29f4d9a7e6cd318cca16, type: 2}
+  - {fileID: 11452530, guid: 0a15b94fb2a15d0478ec6230112796ab, type: 2}
+  - {fileID: 11484248, guid: 1df541ad7e55a09478418b8e5b2433b0, type: 2}
+  - {fileID: 11496012, guid: 7ca25ecbae7fabb4e9f7e3098b5987b8, type: 2}
+  - {fileID: 11480578, guid: 8a999fe1b1667c34980cf1211915ec0f, type: 2}
+  - {fileID: 11404116, guid: e2a96d42277f0f04c84e92e926ca4a4f, type: 2}
+  - {fileID: 11498056, guid: aaf499c2f805c3745988655b72d8e6a0, type: 2}
+  - {fileID: 11403736, guid: cfc97b428e503ff47a6d7d62256ecb0f, type: 2}
+  - {fileID: 11441456, guid: 85b737b9845075b468f1bf7e05ee651b, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 107866}
+  m_IsPrefabParent: 1
