@@ -93,7 +93,7 @@ public class Main : VHMain
     string [] testUtteranceCharacter = { "Brad", "Rachel", "Brad", "Rachel", "*", "*" };
     string [] testUtteranceName = { "brad_byte", "rachel_usc", "speech_womanTTS", "speech_womanTTS", "z_viseme_test2", "z_viseme_test3" };
     string [] testUtteranceText = { "", "", "If the system cannot find my regular voice, it defaults back to the Windows standard voice. Depending on your version of Windows that can be a womans voice. Dont I sound delightful?", "If the system cannot find my regular voice, it defaults back to the Windows standard voice. Depending on your version of Windows that can be a womans voice. Dont I sound delightful?", "", "" };  // the TTS text
-    string [] testTtsVoices = { "Festival_voice_cmu_us_jmk_arctic_clunits", "Festival_voice_cmu_us_clb_arctic_clunits", "Festival_voice_rab_diphone", "Festival_voice_kal_diphone", "Festival_voice_ked_diphone", "Microsoft|Anna", "Microsoft|David|Desktop", "Microsoft|Zira|Desktop", "Cerevoice_star", "Cerevoice_katherine" };
+    List<string> testTtsVoices = new List<string>() { "Festival_voice_cmu_us_jmk_arctic_clunits", "Festival_voice_cmu_us_clb_arctic_clunits", "Microsoft|Anna", "Microsoft|David|Desktop", "Microsoft|Zira|Desktop" };
     string[] perceptionButtonText = { "PerceptionApp OFF", "Track Head", "Track Gaze", "Track Addressee"};
     string[] sceneNames = { "Campus", "House", "LineUp", "Customizer", "CampusEmpty", "OculusRiftTest", "CampusTacQ", "CampusTAB" };
     string[] characterNames;
@@ -150,6 +150,8 @@ public class Main : VHMain
     int m_motionPrefixesCurrentIndex = 0;
 
     UIEventsInGame m_uiEventsInGame;
+
+    string m_speakLineInputBox = "Hello I am a Virtual Human";
 
     #endregion
 
@@ -766,7 +768,7 @@ public class Main : VHMain
 #else
             float buttonH = 20;
 #endif
-            float buttonW = 140;
+            float buttonW = 180;
             float spaceHeight = 20;
 
             if (m_controllerMenuSelected == ControllerMenus.MOTION)
@@ -774,7 +776,7 @@ public class Main : VHMain
 
             GUILayout.BeginArea(new Rect(buttonX, buttonY, buttonW, Screen.height));
 
-            GUILayout.BeginVertical();
+            GUILayout.BeginVertical(GUI.skin.box);
 
 
             GUILayout.BeginHorizontal();
@@ -806,6 +808,136 @@ public class Main : VHMain
 
             if (m_controllerMenuSelected == ControllerMenus.NOMENU)
             {
+                GUILayout.Label("Character:");
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Create", GUILayout.Width(50)))
+                {
+                    VHMsgBase.Get().SendVHMsg("renderer createcharacter Brad Brad");
+                }
+                GUILayout.Label("Brad");
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Create", GUILayout.Width(50)))
+                {
+                    VHMsgBase.Get().SendVHMsg("renderer createcharacter Rachel Rachel");
+                }
+                GUILayout.Label("Rachel");
+                GUILayout.EndHorizontal();
+
+                if (GUILayout.Button("Remove All"))
+                {
+                    VHMsgBase.Get().SendVHMsg("renderer destroyAllCharacters");
+                }
+
+                GUILayout.Space(spaceHeight);
+
+                GUILayout.Label("TTS:");
+                if (GUILayout.Button("Query Voices"))
+                {
+                    testTtsVoices.Clear();
+                    vhmsg.SendVHMsg("TTSRelay queryvoices");
+                }
+
+                GUILayout.Label("Set Brad Voice:");
+                foreach (var voice in testTtsVoices)
+                {
+                    if (GUILayout.Button(voice))
+                    {
+                        string message = string.Format("sbm set character {0} voicebackup remote {1}", "Brad", testTtsVoices[testTtsSelected]);
+                        vhmsg.SendVHMsg(message);
+                    }
+                }
+
+                GUILayout.Label("Set Rachel Voice:");
+                foreach (var voice in testTtsVoices)
+                {
+                    if (GUILayout.Button(voice))
+                    {
+                        string message = string.Format("sbm set character {0} voicebackup remote {1}", "Rachel", testTtsVoices[testTtsSelected]);
+                        vhmsg.SendVHMsg(message);
+                    }
+                }
+
+                GUILayout.Space(spaceHeight);
+
+                GUILayout.Label("Speak:");
+                m_speakLineInputBox = GUILayout.TextField(m_speakLineInputBox);
+
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Brad"))
+                {
+                    string msg = string.Format("vrExpress {0} all 2065648735 <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><act><participant id=\"Rachel\" role=\"actor\" /><fml><turn start=\"take\" end=\"give\" /><affect type=\"neutral\" target=\"addressee\"></affect><culture type=\"neutral\"></culture><personality type=\"neutral\"></personality></fml><bml><speech id=\"sp1\" ref=\"DummyID\" type=\"application/ssml+xml\">{1}</speech></bml></act>",
+                        "Brad", m_speakLineInputBox);
+                    VHMsgBase.Get().SendVHMsg(msg);
+                }
+                if (GUILayout.Button("Rachel"))
+                {
+                    string msg = string.Format("vrExpress {0} all 2065648735 <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><act><participant id=\"Rachel\" role=\"actor\" /><fml><turn start=\"take\" end=\"give\" /><affect type=\"neutral\" target=\"addressee\"></affect><culture type=\"neutral\"></culture><personality type=\"neutral\"></personality></fml><bml><speech id=\"sp1\" ref=\"DummyID\" type=\"application/ssml+xml\">{1}</speech></bml></act>",
+                        "Rachel", m_speakLineInputBox);
+                    VHMsgBase.Get().SendVHMsg(msg);
+                }
+                GUILayout.EndHorizontal();
+
+                GUILayout.Space(spaceHeight);
+
+                GUILayout.Label("Process Management:");
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Start", GUILayout.Width(50)))
+                {
+                    StartCoroutine(FindObjectOfType<ExternalProcesses>().StartNVBG());
+                    StartCoroutine(FindObjectOfType<ExternalProcesses>().StartStanfordParser());
+                }
+                if (GUILayout.Button("Stop", GUILayout.Width(50)))
+                {
+                    VHMsgBase.Get().SendVHMsg("vrKillComponent nvb");
+                }
+                GUILayout.Label("NVBG");
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Start", GUILayout.Width(50)))
+                {
+                    StartCoroutine(FindObjectOfType<ExternalProcesses>().StartTTSRelay());
+                }
+                if (GUILayout.Button("Stop", GUILayout.Width(50)))
+                {
+                    VHMsgBase.Get().SendVHMsg("vrKillComponent tts");
+                }
+                GUILayout.Label("TTS");
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Start", GUILayout.Width(50)))
+                {
+                    StartCoroutine(FindObjectOfType<ExternalProcesses>().StartElsender());
+                }
+                if (GUILayout.Button("Stop", GUILayout.Width(50)))
+                {
+                    VHMsgBase.Get().SendVHMsg("vrKillComponent elsender");
+                }
+                GUILayout.Label("elsender");
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("Start All"))
+                {
+                    ExternalProcesses externalProcesses = FindObjectOfType<ExternalProcesses>();
+                    StartCoroutine(externalProcesses.StartNVBG());
+                    StartCoroutine(externalProcesses.StartStanfordParser());
+                    StartCoroutine(externalProcesses.StartTTSRelay());
+                    StartCoroutine(externalProcesses.StartElsender());
+                }
+                if (GUILayout.Button("Stop All"))
+                {
+                    VHMsgBase vhmsgbase = VHMsgBase.Get();
+                    VHMsgManager vhmsg = (VHMsgManager)vhmsgbase;
+                    foreach (var msg in vhmsg.m_messagesToSendAtQuit)
+                    {
+                        vhmsg.SendVHMsg(msg);
+                    }
+                }
+                GUILayout.EndHorizontal();
             }
             else if (m_controllerMenuSelected == ControllerMenus.SCENE)
             {
@@ -855,7 +987,7 @@ public class Main : VHMain
                 if (GUILayout.Button(testTtsVoices[testTtsSelected], GUILayout.Height(buttonH)))
                 {
                     testTtsSelected++;
-                    testTtsSelected = testTtsSelected % testTtsVoices.Length;
+                    testTtsSelected = testTtsSelected % testTtsVoices.Count;
 
                     string message = string.Format("sbm set character {0} voicebackup remote {1}", "Brad", testTtsVoices[testTtsSelected]);
                     vhmsg.SendVHMsg(message);
@@ -1645,6 +1777,14 @@ public class Main : VHMain
                     }
                 }
             }
+            else if (splitargs[0].Equals("TTSRelay"))
+            {
+                if (splitargs.Length > 1 && splitargs[1] == "queryvoicesreply")
+                {
+                    string voice = splitargs[2];
+                    testTtsVoices.Add(voice);
+                }
+            }
         }
     }
 
@@ -2157,6 +2297,7 @@ public class Main : VHMain
         vhmsg.SubscribeMessage("renderer_record");
         vhmsg.SubscribeMessage("renderer_gui");
         vhmsg.SubscribeMessage("sbm");
+        vhmsg.SubscribeMessage("TTSRelay");
 
         vhmsg.AddMessageEventHandler(new VHMsgBase.MessageEventHandler(VHMsg_MessageEvent));
 

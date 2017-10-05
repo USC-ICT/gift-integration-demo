@@ -171,7 +171,7 @@ public class ExternalProcesses : MonoBehaviour
     }
 
 
-    IEnumerator StartNVBG()
+    public IEnumerator StartNVBG()
     {
         // vrComponent nvb generator
         // vrComponent nvb parser
@@ -225,7 +225,7 @@ public class ExternalProcesses : MonoBehaviour
 #endif
 
 
-    IEnumerator StartStanfordParser()
+    public IEnumerator StartStanfordParser()
     {
         // vrComponent nvb generator
         // vrComponent nvb parser
@@ -265,7 +265,7 @@ public class ExternalProcesses : MonoBehaviour
     }
 
 
-    IEnumerator StartTTSRelay()
+    public IEnumerator StartTTSRelay()
     {
         // vrComponent ttsmsspeechrelay  *or*
         // vrComponent tts msspeechrelay
@@ -317,7 +317,7 @@ public class ExternalProcesses : MonoBehaviour
 #endif
 
 
-    IEnumerator StartElsender()
+    public IEnumerator StartElsender()
     {
         VHMsgBase.Get().SendVHMsg("vrKillComponent elsender");
 
