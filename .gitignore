@@ -1,7 +1,16 @@
+GiftDemo/.vs
+GiftDemo/Assets/StreamingAssets/Bin/data/cache
+GiftDemo/Assets/StreamingAssets/Bin/data/cache.meta
+GiftDemo/Assets/StreamingAssets/Bin/elsender/history.txt
+GiftDemo/Assets/StreamingAssets/Bin/elsender/history.txt.meta
+GiftDemo/Assets/StreamingAssets/Bin/TtsRelay/bin/x86/Release/cache
+GiftDemo/Assets/StreamingAssets/Bin/TtsRelay/bin/x86/Release/cache.meta
 GiftDemo/Library
 GiftDemo/Assembly-CSharp-Editor-firstpass.csproj
 GiftDemo/Assembly-CSharp-Editor.csproj
 GiftDemo/Assembly-CSharp-firstpass.csproj
 GiftDemo/Assembly-CSharp.csproj
 GiftDemo/GiftDemo.sln
+GiftDemo/obj
+GiftDemo/smartbody.log
 GiftDemo/Temp
