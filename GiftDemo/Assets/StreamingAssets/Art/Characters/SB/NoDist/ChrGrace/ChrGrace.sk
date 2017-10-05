@@ -1,0 +1,803 @@
+# SK Skeleton Definition
+# File generated with FbxConverter.exe v1.0    Units: m  Joints: 119  Channels: 201
+
+set_name ChrGrace
+
+skeleton
+root JtRoot 
+{ offset -0.000000 1.086733 -0.047831
+  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+  channel XPos 0 free
+  channel YPos 0 free
+  channel ZPos 0 free
+  channel Quat
+
+  joint JtPelvis 
+  { offset 0.000000 0.000000 0.000000
+    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+    joint JtHipLf 
+    { offset 0.081967 -0.133373 -0.027819
+      prerot  axis 0.573017 -0.585921 -0.573017 ang 119.266136 
+      channel Quat
+
+      joint JtKneeLf 
+      { offset 0.425025 -0.000000 0.000000
+        prerot  axis 0.000000 0.000000 -1.000000 ang 6.150724 
+        channel Quat
+
+        joint JtAnkleLf 
+        { offset 0.425166 -0.000000 0.000000
+          prerot  axis 0.000000 0.000000 1.000000 ang 56.160542 
+          channel Quat
+
+          joint JtBallLf 
+          { offset 0.167581 -0.000000 -0.000000
+            prerot  axis 0.000000 0.000000 1.000000 ang 38.714352 
+            channel Quat
+
+            joint JtToeLf 
+            { offset 0.063375 0.000000 0.000000
+              prerot  axis 0.000000 0.000000 1.000000 ang 180.000000 
+              channel Quat
+
+              joint JtHeelLf 
+              { offset 0.194134 0.000000 0.000000
+                prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+              }
+            }
+          }
+        }
+      }
+    }
+    joint JtHipRt 
+    { offset -0.081967 -0.133373 -0.027819
+      prerot  axis -0.581588 -0.568780 0.581588 ang 120.739326 
+      channel Quat
+
+      joint JtKneeRt 
+      { offset -0.425025 -0.000000 0.000000
+        prerot  axis 0.000000 0.000000 -1.000000 ang 6.150724 
+        channel Quat
+
+        joint JtAnkleRt 
+        { offset -0.425166 0.000000 0.000000
+          prerot  axis 0.000000 0.000000 1.000000 ang 56.160542 
+          channel Quat
+
+          joint JtBallRt 
+          { offset -0.167581 0.000000 0.000000
+            prerot  axis 0.000000 0.000000 1.000000 ang 38.714352 
+            channel Quat
+
+            joint JtToeRt 
+            { offset -0.063375 -0.000000 -0.000000
+              prerot  axis 0.000000 0.000000 1.000000 ang 180.000000 
+              channel Quat
+
+              joint JtHeelRt 
+              { offset -0.194134 -0.000000 -0.000000
+                prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  joint JtSpineA 
+  { offset 0.000000 0.060270 0.001284
+    prerot  axis 0.575286 0.581457 0.575286 ang 119.647713 
+    channel Quat
+
+    joint JtSpineB 
+    { offset 0.075318 0.000000 0.000000
+      prerot  axis 0.000000 0.000000 -1.000000 ang 1.258014 
+      channel Quat
+
+      joint JtSpineC 
+      { offset 0.076167 -0.000000 -0.000000
+        prerot  axis 0.000000 0.000000 -1.000000 ang 4.687030 
+        channel Quat
+
+        joint JtClavicleLf 
+        { offset 0.163870 0.001813 0.017270
+          prerot  axis 0.073780 -0.996943 0.025725 ang 102.059944 
+          channel Quat
+
+          joint JtShoulderLf 
+          { offset 0.124187 -0.000000 0.000000
+            prerot  axis -0.023382 0.950788 0.308960 ang 13.442523 
+            channel Quat
+
+            joint JtUpperArmTwistALf 
+            { offset 0.136340 0.000000 0.000000
+              prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+              channel Quat
+            }
+            joint JtUpperArmTwistBLf 
+            { offset 0.272680 0.000000 0.000000
+              prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+              channel Quat
+
+              joint JtElbowLf 
+              { offset -0.000000 -0.000000 0.000000
+                prerot  axis 0.000000 -0.000001 1.000000 ang 4.426394 
+                channel Quat
+
+                joint JtForearmTwistALf 
+                { offset 0.136284 0.000000 -0.000000
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  channel Quat
+                }
+
+                joint JtForearmTwistBLf 
+                { offset 0.272569 0.000000 -0.000000
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  channel Quat
+
+                  joint JtWristLf 
+                  { offset -0.000000 0.000000 -0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                    channel Quat
+
+                    joint JtIndexALf 
+                    { offset 0.071897 0.022069 0.003127
+                      prerot  axis 0.999834 0.006751 -0.016937 ang 88.508606 
+                      channel Quat
+
+                      joint JtIndexBLf 
+                      { offset 0.032970 0.000000 -0.000000
+                        prerot  axis -0.002977 0.270605 0.962686 ang 2.275609 
+                        channel Quat
+
+                        joint JtIndexCLf 
+                        { offset 0.017776 0.000000 0.000000
+                          prerot  axis 0.000172 -0.996200 -0.087096 ang 0.747554 
+                          channel Quat
+
+                          joint JtIndexDLf 
+                          { offset 0.016626 0.000000 -0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                    joint JtLittleALf 
+                    { offset 0.060262 -0.028800 0.003367
+                      prerot  axis 0.999962 -0.002086 -0.008472 ang 89.924080 
+                      channel Quat
+
+                      joint JtLittleBLf 
+                      { offset 0.026871 -0.000000 0.000000
+                        prerot  axis 0.000076 -0.012987 0.999916 ang 1.199409 
+                        channel Quat
+
+                        joint JtLittleCLf 
+                        { offset 0.015054 0.000000 -0.000000
+                          prerot  axis 0.000041 0.004425 0.999990 ang 4.439816 
+                          channel Quat
+
+                          joint JtLittleDLf 
+                          { offset 0.012191 -0.000000 0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                    joint JtMiddleALf 
+                    { offset 0.072986 0.004623 0.002937
+                      prerot  axis 0.999874 0.004639 -0.015188 ang 91.858406 
+                      channel Quat
+
+                      joint JtMiddleBLf 
+                      { offset 0.035737 -0.000000 -0.000000
+                        prerot  axis -0.002489 0.293978 0.955809 ang 2.077457 
+                        channel Quat
+
+                        joint JtMiddleCLf 
+                        { offset 0.024558 -0.000000 -0.000000
+                          prerot  axis 0.000029 -0.999699 -0.024546 ang 0.773286 
+                          channel Quat
+
+                          joint JtMiddleDLf 
+                          { offset 0.017516 -0.000000 0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                    joint JtRingALf 
+                    { offset 0.068386 -0.012805 0.002664
+                      prerot  axis 0.999858 0.005579 -0.015905 ang 89.454697 
+                      channel Quat
+
+                      joint JtRingBLf 
+                      { offset 0.034727 0.000000 -0.000000
+                        prerot  axis -0.002211 0.226442 0.974022 ang 2.121819 
+                        channel Quat
+
+                        joint JtRingCLf 
+                        { offset 0.020675 0.000000 -0.000000
+                          prerot  axis 0.000098 -0.996535 -0.083176 ang 0.607805 
+                          channel Quat
+
+                          joint JtRingDLf 
+                          { offset 0.016327 -0.000000 0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+                    joint JtThumbALf 
+                    { offset 0.016873 0.016937 0.001809
+                      prerot  axis 0.918873 0.253734 0.302146 ang 137.725952 
+                      channel Quat
+
+                      joint JtThumbBLf 
+                      { offset 0.034592 0.000000 -0.000000
+                        prerot  axis -0.001773 0.042303 0.999103 ang 8.986710 
+                        channel Quat
+
+                        joint JtThumbCLf 
+                        { offset 0.021020 -0.000000 0.000000
+                          prerot  axis 0.001417 -0.145410 -0.989371 ang 2.889382 
+                          channel Quat
+
+                          joint JtThumbDLf 
+                          { offset 0.024000 0.000000 0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                  }
+                }
+              }
+            }
+
+          }
+        }
+
+        joint JtClavicleRt 
+        { offset 0.163870 0.001813 -0.017270
+          prerot  axis 0.775253 0.057374 0.629040 ang 182.292053 
+          channel Quat
+
+          joint JtShoulderRt 
+          { offset -0.124187 -0.000000 0.000000
+            prerot  axis -0.023382 0.950788 0.308960 ang 13.442523 
+            channel Quat
+
+            joint JtUpperArmTwistARt 
+            { offset -0.136340 0.000000 0.000000
+              prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+              channel Quat
+            }
+            joint JtUpperArmTwistBRt 
+            { offset -0.272680 0.000000 -0.000000
+              prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+              channel Quat
+
+              joint JtElbowRt 
+              { offset -0.000000 0.000000 0.000000
+                prerot  axis 0.000000 -0.000001 1.000000 ang 4.426394 
+                channel Quat
+
+                joint JtForearmTwistARt 
+                { offset -0.136284 -0.000000 0.000000
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  channel Quat
+                }
+                joint JtForearmTwistBRt 
+                { offset -0.272569 -0.000000 0.000000
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  channel Quat
+
+                  joint JtWristRt 
+                  { offset 0.000000 0.000000 0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                    channel Quat
+
+                    joint JtIndexARt 
+                    { offset -0.071897 -0.022069 -0.003127
+                      prerot  axis 0.999834 0.006751 -0.016937 ang 88.508606 
+                      channel Quat
+
+                      joint JtIndexBRt 
+                      { offset -0.032970 -0.000000 -0.000000
+                        prerot  axis -0.002977 0.270612 0.962684 ang 2.275609 
+                        channel Quat
+
+                        joint JtIndexCRt 
+                        { offset -0.017776 0.000000 -0.000000
+                          prerot  axis 0.000172 -0.996200 -0.087095 ang 0.747554 
+                          channel Quat
+
+                          joint JtIndexDRt 
+                          { offset -0.016626 0.000000 0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                    joint JtLittleARt 
+                    { offset -0.060262 0.028800 -0.003367
+                      prerot  axis 0.999962 -0.002086 -0.008472 ang 89.924080 
+                      channel Quat
+
+                      joint JtLittleBRt 
+                      { offset -0.026871 0.000000 -0.000000
+                        prerot  axis 0.000076 -0.012989 0.999916 ang 1.199409 
+                        channel Quat
+
+                        joint JtLittleCRt 
+                        { offset -0.015054 0.000000 0.000000
+                          prerot  axis 0.000041 0.004432 0.999990 ang 4.439816 
+                          channel Quat
+
+                          joint JtLittleDRt 
+                          { offset -0.012191 -0.000000 -0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                    joint JtMiddleARt 
+                    { offset -0.072986 -0.004623 -0.002937
+                      prerot  axis 0.999874 0.004639 -0.015188 ang 91.858406 
+                      channel Quat
+
+                      joint JtMiddleBRt 
+                      { offset -0.035737 -0.000000 0.000000
+                        prerot  axis -0.002489 0.293986 0.955807 ang 2.077457 
+                        channel Quat
+
+                        joint JtMiddleCRt 
+                        { offset -0.024558 -0.000000 0.000000
+                          prerot  axis 0.000029 -0.999699 -0.024545 ang 0.773286 
+                          channel Quat
+
+                          joint JtMiddleDRt 
+                          { offset -0.017516 0.000000 -0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+                    joint JtRingARt 
+                    { offset -0.068386 0.012805 -0.002664
+                      prerot  axis 0.999858 0.005578 -0.015905 ang 89.454697 
+                      channel Quat
+
+                      joint JtRingBRt 
+                      { offset -0.034727 -0.000000 -0.000000
+                        prerot  axis -0.002211 0.226450 0.974020 ang 2.122188 
+                        channel Quat
+
+                        joint JtRingCRt 
+                        { offset -0.020675 0.000000 0.000000
+                          prerot  axis 0.000099 -0.996535 -0.083175 ang 0.607805 
+                          channel Quat
+
+                          joint JtRingDRt 
+                          { offset -0.016327 -0.000000 0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                    joint JtThumbARt 
+                    { offset -0.016873 -0.016937 -0.001809
+                      prerot  axis 0.918873 0.253734 0.302146 ang 137.725967 
+                      channel Quat
+
+                      joint JtThumbBRt 
+                      { offset -0.034592 0.000000 -0.000000
+                        prerot  axis -0.001773 0.042294 0.999104 ang 8.986710 
+                        channel Quat
+
+                        joint JtThumbCRt 
+                        { offset -0.021020 -0.000000 0.000000
+                          prerot  axis 0.001417 -0.145381 -0.989375 ang 2.889382 
+                          channel Quat
+
+                          joint JtThumbDRt 
+                          { offset -0.024000 0.000000 -0.000000
+                            prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                          }
+                        }
+                      }
+                    }
+
+                  }
+                }
+
+              }
+            }
+
+          }
+        }
+        joint JtNeckA 
+        { offset 0.211256 0.000000 -0.000000
+          prerot  axis 0.000000 0.000000 1.000000 ang 21.883762 
+          channel Quat
+
+          joint JtNeckB 
+          { offset 0.047832 -0.000000 -0.000000
+            prerot  axis 0.000000 0.000000 1.000000 ang 0.306467 
+            channel Quat
+
+            joint JtSkullA 
+            { offset 0.044388 0.000000 0.000000
+              prerot  axis 0.000000 0.000000 -1.000000 ang 12.795712 
+              channel Quat
+
+              joint JtLowerFaceParent 
+              { offset 0.035279 -0.046016 -0.000000
+                prerot  axis -0.586650 -0.558286 -0.586650 ang 121.651962 
+
+                joint JtCheekLowerLf 
+                { offset 0.058407 -0.034648 0.105645
+                  prerot  axis 0.135568 -0.963736 -0.229858 ang 62.932056 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtCheekLowerRt 
+                { offset -0.060896 -0.034648 0.105645
+                  prerot  axis 0.137543 -0.987302 -0.079475 ang 120.592262 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtCheekUpperLf 
+                { offset 0.033759 -0.006224 0.131050
+                  prerot  axis 0.022967 -0.999297 -0.029633 ang 75.593330 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtCheekUpperRt 
+                { offset -0.036248 -0.006224 0.131050
+                  prerot  axis 0.022865 -0.999587 -0.017399 ang 105.484169 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtJaw 
+                { offset 0.000000 -0.016360 0.054494
+                  prerot  axis 0.564670 -0.601910 -0.564670 ang 117.911728 
+                  channel Quat
+
+                  joint JtJawBack 
+                  { offset 0.028381 0.000000 -0.000000
+                    prerot  axis 0.000000 0.000000 1.000000 ang 56.476185 
+
+                    joint JtJawFront 
+                    { offset 0.084992 0.000000 -0.000000
+                      prerot  axis 0.000000 0.000000 1.000000 ang 98.774529 
+
+                      joint JtLipLowerLf 
+                      { offset 0.033237 0.004404 -0.010421
+                        prerot  axis 0.930634 0.365731 -0.012666 ang 53.005524 
+                        channel XPos 0 free
+                        channel YPos 0 free
+                        channel ZPos 0 free
+                        channel Quat
+                      }
+
+                      joint JtLipLowerMid 
+                      { offset 0.034091 -0.000000 0.000000
+                        prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                        channel XPos 0 free
+                        channel YPos 0 free
+                        channel ZPos 0 free
+                        channel Quat
+                      }
+                      joint JtLipLowerRt 
+                      { offset 0.033237 0.004404 0.010758
+                        prerot  axis -0.929221 -0.369013 -0.019454 ang 53.885197 
+                        channel XPos 0 free
+                        channel YPos 0 free
+                        channel ZPos 0 free
+                        channel Quat
+                      }
+
+                    }
+                  }
+
+                  joint JtTongueA 
+                  { offset 0.038196 0.026077 0.000000
+                    prerot  axis 0.000000 0.000000 1.000000 ang 101.278305 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+
+                    joint JtTongueB 
+                    { offset 0.019595 -0.000000 0.000000
+                      prerot  axis 0.000000 0.000000 -1.000000 ang 13.191526 
+                      channel XPos 0 free
+                      channel YPos 0 free
+                      channel ZPos 0 free
+                      channel Quat
+
+                      joint JtTongueC 
+                      { offset 0.020344 0.000000 0.000000
+                        prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                        channel XPos 0 free
+                        channel YPos 0 free
+                        channel ZPos 0 free
+                        channel Quat
+                      }
+                    }
+                  }
+                }
+                joint JtLipCornerLf 
+                { offset 0.026253 -0.050319 0.129133
+                  prerot  axis 0.177067 -0.960049 -0.216686 ang 80.806328 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtLipCornerRt 
+                { offset -0.028741 -0.050319 0.129133
+                  prerot  axis 0.178865 -0.973363 -0.143431 ang 104.053261 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtLipUpperLf 
+                { offset 0.012237 -0.046453 0.139928
+                  prerot  axis 0.156678 -0.972738 -0.170978 ang 86.581604 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtLipUpperMid 
+                { offset -0.000000 -0.045154 0.144332
+                  prerot  axis 0.149327 -0.977447 -0.149327 ang 91.306877 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtLipUpperRt 
+                { offset -0.012574 -0.046453 0.139928
+                  prerot  axis 0.157336 -0.977015 -0.143831 ang 96.460274 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+              }
+
+              joint JtSkullB 
+              { offset 0.155568 0.000000 -0.000000
+                prerot  axis -1.000000 0.000000 0.000000 ang 180.000000 
+              }
+
+              joint JtUpperFaceParent 
+              { offset 0.094573 -0.057034 -0.000000
+                prerot  axis -0.586650 -0.558286 -0.586650 ang 121.651962 
+
+                joint JtBrowParentLf 
+                { offset 0.034000 -0.002135 0.092925
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+                  joint JtEyebrow01Lf 
+                  { offset -0.020049 -0.028193 0.053874
+                    prerot  axis 0.223285 -0.962327 -0.155149 ang 112.460938 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+
+                  joint JtEyebrow02Lf 
+                  { offset -0.002481 -0.022688 0.051534
+                    prerot  axis 0.201828 -0.960348 -0.192345 ang 95.068893 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+
+                  joint JtEyebrow03Lf 
+                  { offset 0.010674 -0.020843 0.045770
+                    prerot  axis 0.200481 -0.946569 -0.252616 ang 79.954170 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+                  joint JtEyebrow04Lf 
+                  { offset 0.020558 -0.026313 0.033889
+                    prerot  axis 0.256994 -0.851809 -0.456481 ang 66.924156 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+
+                }
+
+                joint JtBrowParentRt 
+                { offset -0.036489 -0.002135 0.092925
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+                  joint JtEyebrow01Rt 
+                  { offset 0.020049 -0.028193 0.053874
+                    prerot  axis 0.214937 -0.926347 -0.309329 ang 73.746864 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+
+                  joint JtEyebrow02Rt 
+                  { offset 0.002481 -0.022688 0.051534
+                    prerot  axis 0.201041 -0.956599 -0.210952 ang 89.784889 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+                  joint JtEyebrow03Rt 
+                  { offset -0.010674 -0.020843 0.045770
+                    prerot  axis 0.204455 -0.965334 -0.162260 ang 105.087906 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+
+                  joint JtEyebrow04Rt 
+                  { offset -0.020558 -0.026313 0.033889
+                    prerot  axis 0.285099 -0.944963 -0.160508 ang 123.973640 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+
+                }
+
+                joint JtEarLf 
+                { offset 0.071980 -0.060670 0.062578
+                  prerot  axis 0.223866 -0.769047 -0.598708 ang 51.858624 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtEarRt 
+                { offset -0.074469 -0.060670 0.062578
+                  prerot  axis 0.273866 -0.956577 -0.099790 ang 141.567490 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtEyeLf 
+                { offset 0.031952 -0.043294 0.120938
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  channel Quat
+                }
+
+                joint JtEyeRt 
+                { offset -0.030616 -0.043294 0.120938
+                  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  channel Quat
+                }
+
+                joint JtEyelidLowerLf 
+                { offset 0.031952 -0.050267 0.138221
+                  prerot  axis 0.187197 -0.964321 -0.187197 ang 92.081177 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtEyelidLowerRt 
+                { offset -0.030616 -0.050267 0.138221
+                  prerot  axis 0.187197 -0.964321 -0.187197 ang 92.081177 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtEyelidUpperLf 
+                { offset 0.031952 -0.046292 0.139726
+                  prerot  axis 0.078798 -0.993771 -0.078798 ang 90.357986 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+                joint JtEyelidUpperRt 
+                { offset -0.030616 -0.046292 0.139726
+                  prerot  axis 0.078798 -0.993771 -0.078798 ang 90.357986 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+                }
+
+                joint JtUpperNoseLf 
+                { offset 0.010115 -0.058136 0.143534
+                  prerot  axis 0.248256 -0.321872 -0.913656 ang 80.340660 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+
+                  joint JtLowerNoseLf 
+                  { offset 0.019875 0.000000 -0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+                }
+
+                joint JtUpperNoseRt 
+                { offset -0.012604 -0.058136 0.143534
+                  prerot  axis 0.602494 -0.781153 -0.163708 ang 156.033295 
+                  channel XPos 0 free
+                  channel YPos 0 free
+                  channel ZPos 0 free
+                  channel Quat
+
+                  joint JtLowerNoseRt 
+                  { offset 0.019875 0.000000 -0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                    channel XPos 0 free
+                    channel YPos 0 free
+                    channel ZPos 0 free
+                    channel Quat
+                  }
+                }
+
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+end

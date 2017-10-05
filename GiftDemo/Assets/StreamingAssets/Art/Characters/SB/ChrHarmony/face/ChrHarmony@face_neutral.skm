@@ -1,0 +1,153 @@
+# SKM Motion Definition 
+# FbxConverter.exe v1.0    Units: m
+
+SkMotion
+
+name "ChrHarmony@face_neutral"
+
+channels 135
+JtCheekLowerRt XPos
+JtCheekLowerRt YPos
+JtCheekLowerRt ZPos
+JtCheekLowerRt Quat
+JtLipUpperMid XPos
+JtLipUpperMid YPos
+JtLipUpperMid ZPos
+JtLipUpperMid Quat
+JtLipUpperRt XPos
+JtLipUpperRt YPos
+JtLipUpperRt ZPos
+JtLipUpperRt Quat
+JtCheekUpperLf XPos
+JtCheekUpperLf YPos
+JtCheekUpperLf ZPos
+JtCheekUpperLf Quat
+JtLipUpperLf XPos
+JtLipUpperLf YPos
+JtLipUpperLf ZPos
+JtLipUpperLf Quat
+JtJaw Quat
+JtTongueA XPos
+JtTongueA YPos
+JtTongueA ZPos
+JtTongueA Quat
+JtTongueB XPos
+JtTongueB YPos
+JtTongueB ZPos
+JtTongueB Quat
+JtTongueC XPos
+JtTongueC YPos
+JtTongueC ZPos
+JtTongueC Quat
+JtLipLowerMid XPos
+JtLipLowerMid YPos
+JtLipLowerMid ZPos
+JtLipLowerMid Quat
+JtLipLowerRt XPos
+JtLipLowerRt YPos
+JtLipLowerRt ZPos
+JtLipLowerRt Quat
+JtLipLowerLf XPos
+JtLipLowerLf YPos
+JtLipLowerLf ZPos
+JtLipLowerLf Quat
+JtLipCornerRt XPos
+JtLipCornerRt YPos
+JtLipCornerRt ZPos
+JtLipCornerRt Quat
+JtCheekUpperRt XPos
+JtCheekUpperRt YPos
+JtCheekUpperRt ZPos
+JtCheekUpperRt Quat
+JtLipCornerLf XPos
+JtLipCornerLf YPos
+JtLipCornerLf ZPos
+JtLipCornerLf Quat
+JtCheekLowerLf XPos
+JtCheekLowerLf YPos
+JtCheekLowerLf ZPos
+JtCheekLowerLf Quat
+JtEyebrow04Rt XPos
+JtEyebrow04Rt YPos
+JtEyebrow04Rt ZPos
+JtEyebrow04Rt Quat
+JtEyebrow02Rt XPos
+JtEyebrow02Rt YPos
+JtEyebrow02Rt ZPos
+JtEyebrow02Rt Quat
+JtEyebrow01Rt XPos
+JtEyebrow01Rt YPos
+JtEyebrow01Rt ZPos
+JtEyebrow01Rt Quat
+JtEyebrow03Rt XPos
+JtEyebrow03Rt YPos
+JtEyebrow03Rt ZPos
+JtEyebrow03Rt Quat
+JtEyelidLowerLf XPos
+JtEyelidLowerLf YPos
+JtEyelidLowerLf ZPos
+JtEyelidLowerLf Quat
+JtEyebrow02Lf XPos
+JtEyebrow02Lf YPos
+JtEyebrow02Lf ZPos
+JtEyebrow02Lf Quat
+JtEyebrow03Lf XPos
+JtEyebrow03Lf YPos
+JtEyebrow03Lf ZPos
+JtEyebrow03Lf Quat
+JtEyebrow04Lf XPos
+JtEyebrow04Lf YPos
+JtEyebrow04Lf ZPos
+JtEyebrow04Lf Quat
+JtEyebrow01Lf XPos
+JtEyebrow01Lf YPos
+JtEyebrow01Lf ZPos
+JtEyebrow01Lf Quat
+JtEyelidUpperLf XPos
+JtEyelidUpperLf YPos
+JtEyelidUpperLf ZPos
+JtEyelidUpperLf Quat
+JtUpperNoseRt XPos
+JtUpperNoseRt YPos
+JtUpperNoseRt ZPos
+JtUpperNoseRt Quat
+JtLowerNoseRt XPos
+JtLowerNoseRt YPos
+JtLowerNoseRt ZPos
+JtLowerNoseRt Quat
+JtEyelidUpperRt XPos
+JtEyelidUpperRt YPos
+JtEyelidUpperRt ZPos
+JtEyelidUpperRt Quat
+JtEarLf XPos
+JtEarLf YPos
+JtEarLf ZPos
+JtEarLf Quat
+JtEarRt XPos
+JtEarRt YPos
+JtEarRt ZPos
+JtEarRt Quat
+JtEyeLf Quat
+JtEyelidLowerRt XPos
+JtEyelidLowerRt YPos
+JtEyelidLowerRt ZPos
+JtEyelidLowerRt Quat
+JtEyeRt Quat
+JtUpperNoseLf XPos
+JtUpperNoseLf YPos
+JtUpperNoseLf ZPos
+JtUpperNoseLf Quat
+JtLowerNoseLf XPos
+JtLowerNoseLf YPos
+JtLowerNoseLf ZPos
+JtLowerNoseLf Quat
+
+frames 1
+kt 0.000000 fr 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -6.283185 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+
+
+ready time: 0.000000
+strokeStart time: 0.000000
+emphasis time: 0.000000
+stroke time: 0.000000
+relax time: 0.000000
