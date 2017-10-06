@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cpandl.com">
+  <BuildOutputPath>../bin/GiftDemo</BuildOutputPath>
+  <Scenes>
+	<string>Assets/Scenes/CommandLine.unity</string>
+	<string>Assets/Scenes/Splash.unity</string>
+	<string>Assets/Scenes/House.unity</string>
+	<string>Assets/Scenes/Lineup.unity</string>
+	<string>Assets/Scenes/Customizer.unity</string>
+  </Scenes>
+</BuildSettings>
