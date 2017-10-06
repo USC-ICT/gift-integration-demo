@@ -828,25 +828,16 @@ public class Main : VHMain
 
                 GUILayout.Label("Character:");
                 GUILayout.BeginHorizontal();
-                if (GUILayout.Button("Create", GUILayout.Width(50)))
-                {
-                    VHMsgBase.Get().SendVHMsg("renderer createcharacter Brad Brad");
-                }
+                if (GUILayout.Button("Create", GUILayout.Width(50))) { VHMsgBase.Get().SendVHMsg("renderer createcharacter Brad Brad"); }
                 GUILayout.Label("Brad");
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                if (GUILayout.Button("Create", GUILayout.Width(50)))
-                {
-                    VHMsgBase.Get().SendVHMsg("renderer createcharacter Rachel Rachel");
-                }
+                if (GUILayout.Button("Create", GUILayout.Width(50))) { VHMsgBase.Get().SendVHMsg("renderer createcharacter Rachel Rachel"); }
                 GUILayout.Label("Rachel");
                 GUILayout.EndHorizontal();
 
-                if (GUILayout.Button("Remove All"))
-                {
-                    VHMsgBase.Get().SendVHMsg("renderer destroyAllCharacters");
-                }
+                if (GUILayout.Button("Remove All")) { VHMsgBase.Get().SendVHMsg("renderer destroyAllCharacters"); }
 
                 GUILayout.Space(spaceHeight);
 
@@ -860,21 +851,13 @@ public class Main : VHMain
                 GUILayout.Label("Set Brad Voice:");
                 foreach (var voice in testTtsVoices)
                 {
-                    if (GUILayout.Button(voice))
-                    {
-                        string message = string.Format("sbm set character {0} voicebackup remote {1}", "Brad", testTtsVoices[testTtsSelected]);
-                        vhmsg.SendVHMsg(message);
-                    }
+                    if (GUILayout.Button(voice)) { vhmsg.SendVHMsg(string.Format("sbm set character {0} voicebackup remote {1}", "Brad", testTtsVoices[testTtsSelected])); }
                 }
 
                 GUILayout.Label("Set Rachel Voice:");
                 foreach (var voice in testTtsVoices)
                 {
-                    if (GUILayout.Button(voice))
-                    {
-                        string message = string.Format("sbm set character {0} voicebackup remote {1}", "Rachel", testTtsVoices[testTtsSelected]);
-                        vhmsg.SendVHMsg(message);
-                    }
+                    if (GUILayout.Button(voice)) { vhmsg.SendVHMsg(string.Format("sbm set character {0} voicebackup remote {1}", "Rachel", testTtsVoices[testTtsSelected])); }
                 }
 
                 GUILayout.Space(spaceHeight);
@@ -899,6 +882,18 @@ public class Main : VHMain
 
                 GUILayout.Space(spaceHeight);
 
+                GUILayout.Label("Backgrounds:");
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("UscIct")) { VHMsgBase.Get().SendVHMsg("renderer background file Gradient01_UscIct.jpg"); }
+                if (GUILayout.Button("Ict06")) { VHMsgBase.Get().SendVHMsg("renderer background file Ict06.jpg"); }
+                GUILayout.EndHorizontal();
+                GUILayout.BeginHorizontal();
+                if (GUILayout.Button("UscShield")) { VHMsgBase.Get().SendVHMsg("renderer background file Gradient01_UscShield.jpg"); }
+                if (GUILayout.Button("Random")) { VHMsgBase.Get().SendVHMsg(string.Format("renderer color {0} {1} {2}", UnityEngine.Random.Range(0, 256), UnityEngine.Random.Range(0, 256), UnityEngine.Random.Range(0, 256))); }
+                GUILayout.EndHorizontal();
+
+                GUILayout.Space(spaceHeight);
+
                 GUILayout.Label("Process Management:");
                 GUILayout.BeginHorizontal();
                 if (GUILayout.Button("Start", GUILayout.Width(50)))
@@ -906,34 +901,19 @@ public class Main : VHMain
                     StartCoroutine(FindObjectOfType<ExternalProcesses>().StartNVBG());
                     StartCoroutine(FindObjectOfType<ExternalProcesses>().StartStanfordParser());
                 }
-                if (GUILayout.Button("Stop", GUILayout.Width(50)))
-                {
-                    VHMsgBase.Get().SendVHMsg("vrKillComponent nvb");
-                }
+                if (GUILayout.Button("Stop", GUILayout.Width(50))) { VHMsgBase.Get().SendVHMsg("vrKillComponent nvb"); }
                 GUILayout.Label("NVBG");
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                if (GUILayout.Button("Start", GUILayout.Width(50)))
-                {
-                    StartCoroutine(FindObjectOfType<ExternalProcesses>().StartTTSRelay());
-                }
-                if (GUILayout.Button("Stop", GUILayout.Width(50)))
-                {
-                    VHMsgBase.Get().SendVHMsg("vrKillComponent tts");
-                }
+                if (GUILayout.Button("Start", GUILayout.Width(50))) { StartCoroutine(FindObjectOfType<ExternalProcesses>().StartTTSRelay()); }
+                if (GUILayout.Button("Stop", GUILayout.Width(50))) { VHMsgBase.Get().SendVHMsg("vrKillComponent tts"); }
                 GUILayout.Label("TTS");
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                if (GUILayout.Button("Start", GUILayout.Width(50)))
-                {
-                    StartCoroutine(FindObjectOfType<ExternalProcesses>().StartElsender());
-                }
-                if (GUILayout.Button("Stop", GUILayout.Width(50)))
-                {
-                    VHMsgBase.Get().SendVHMsg("vrKillComponent elsender");
-                }
+                if (GUILayout.Button("Start", GUILayout.Width(50))) { StartCoroutine(FindObjectOfType<ExternalProcesses>().StartElsender()); }
+                if (GUILayout.Button("Stop", GUILayout.Width(50))) { VHMsgBase.Get().SendVHMsg("vrKillComponent elsender"); }
                 GUILayout.Label("elsender");
                 GUILayout.EndHorizontal();
 
