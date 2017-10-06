@@ -819,9 +819,9 @@ public class Main : VHMain
                 }
                 if (GUILayout.Button("House", GUILayout.Width(50)))
                 {
-                    if (VHUtils.SceneManagerActiveSceneName() != "House")
+                    if (VHUtils.SceneManagerActiveSceneName() != "Lineup")
                     {
-                        VHUtils.SceneManagerLoadScene("House");
+                        VHUtils.SceneManagerLoadScene("Lineup");
                     }
                 }
                 GUILayout.EndHorizontal();
