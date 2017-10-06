@@ -18,7 +18,7 @@ public class InitBrad : SmartbodyCharacterInit
         voiceType = "remote_audiofile";
         voiceCode = VHFile.GetExternalAssetsPath() + "Sounds";
         voiceTypeBackup = "remote";
-        voiceCodeBackup = "Festival_voice_cmu_us_jmk_arctic_clunits";
+        voiceCodeBackup = VHUtils.IsWindows8OrGreater() ? "Microsoft|David|Desktop" : "Microsoft|Anna";
         usePhoneBigram = false;
         startingPosture = "ChrBrad@Idle01";
 
